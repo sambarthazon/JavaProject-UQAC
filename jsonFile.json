@@ -1,0 +1,102 @@
+{
+"UQAC": {
+	"Name" : "UQAC",
+	"Administrators" : [
+		{
+			"Firstname" : "Seb",
+			"Lastname" : "Seboche",
+			"Function" : "Admin"
+		},
+		{
+			"Firstname" : "Fred",
+			"Lastname" : "Fredoche",
+			"Function" : "Admin"
+		},
+		{
+			"Firstname" : "Patrick",
+			"Lastname" : "Patoche",
+			"Function" : "Admin"
+		}
+	],
+	"Secretaries" : [
+		{
+			"Firstname" : "Françoise",
+			"Lastname" : "Françoise",
+			"Function" : "Secretary"
+		},
+		{
+			"Firstname" : "Claudette",
+			"Lastname" : "Cloclo",
+			"Function" : "Secretary"
+		}
+	],
+	"Professors" : [
+			{
+			"Firstname" : "Cedric",
+			"Lastname" : "Demongivert",
+			"Function" : "Professor",
+			"Course" : "POO",
+			"Student list" : ["Sam BARTHAZON"]
+			},
+			{
+			"Firstname" : "Mirabelle",
+			"Lastname" : "Mireille",
+			"Function" : "Professor",
+			"Course" : null,
+			"Student list" : []
+			},
+			{
+			"Firstname" : "Nicacio",
+			"Lastname" : "Jalves",
+			"Function" : "Professor",
+			"Course" : "TWA",
+			"Student list" : []
+			}
+	],
+	"Students" : [
+		{
+			"Firstname" : "Sam",
+			"Lastname" : "BARTHAZON",
+			"Birthday" : "22/11/02",
+			"Permanent Code" : "BARS22110230",
+			"Field" : "Informatique",
+			"Courses list" : ["POO"],
+			"Sport list" : []
+		}
+	],
+	"Fields" : [
+		{
+			"Name" : "Informatique",
+			"Courses list" : ["TWA", "POO"],
+			"Student list" : ["Sam BARTHAZON"]
+		},
+		{
+			"Name" : "Art",
+			"Courses list" : [],
+			"Student list" : []
+		}
+	],
+	"Courses" : [
+		{
+			"Name" : "TWA",
+			"Professor" : "Jalves Nicacio",
+			"Field list" : ["Informatique"],
+			"Room" : "null"
+		},
+		{
+			"Name" : "POO",
+			"Professor" : "Demongivert Cedric",
+			"Field list" : ["Informatique"],
+			"Room" : "P0-3360"
+		}
+	],
+	"Rooms" : [
+		{
+			"Course" : "POO",
+			"Room number" : "P0-3360"
+		}
+	],
+	"Sports" : [
+	]
+}
+}

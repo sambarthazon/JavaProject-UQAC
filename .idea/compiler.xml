@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker/3.21.3/39e2d74831304ffae43b77b749491dbeb5f2853d/checker-3.21.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-util/3.21.3/400705b59d620be5c3fb77f68e44e1453055e31f/checker-util-3.21.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.21.3/478dca5bca5ca1c9630f0b245786fbbc39405275/checker-qual-3.21.3.jar" />
+        </processorPath>
+        <module name="JavaProject-UQAC.main" />
+        <module name="JavaProject-UQAC.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>
