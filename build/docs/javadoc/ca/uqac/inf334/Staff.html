@@ -99,6 +99,7 @@ loadScripts(document, 'script');</script>
 <hr>
 <div class="type-signature"><span class="modifiers">public abstract class </span><span class="element-name type-name-label">Staff</span>
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>
+<div class="block">Abstract class for university's staff</div>
 </section>
 <section class="summary">
 <ul class="summary-list">
@@ -176,9 +177,9 @@ loadScripts(document, 'script');</script>
 <div class="block">Staff's constructor</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>lastName</code> - </dd>
-<dd><code>firstName</code> - </dd>
-<dd><code>function</code> - </dd>
+<dd><code>lastName</code> - staff's last name</dd>
+<dd><code>firstName</code> - staff's first name</dd>
+<dd><code>function</code> - staff's function</dd>
 </dl>
 </section>
 </li>
@@ -195,6 +196,10 @@ loadScripts(document, 'script');</script>
 <h3>SetUniversity</h3>
 <div class="member-signature"><span class="modifiers">public abstract</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">SetUniversity</span><wbr><span class="parameters">(<a href="University.html" title="class in ca.uqac.inf334">University</a>&nbsp;newUniversity)</span></div>
 <div class="block">Set university</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>newUniversity</code> - staff's new university</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -202,6 +207,10 @@ loadScripts(document, 'script');</script>
 <h3>RemoveUniversity</h3>
 <div class="member-signature"><span class="modifiers">public abstract</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">RemoveUniversity</span><wbr><span class="parameters">(<a href="University.html" title="class in ca.uqac.inf334">University</a>&nbsp;university)</span></div>
 <div class="block">Remove university</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>university</code> - staff's university</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -212,6 +221,8 @@ loadScripts(document, 'script');</script>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
+<dt>Returns:</dt>
+<dd>last name and first name</dd>
 </dl>
 </section>
 </li>
@@ -220,6 +231,10 @@ loadScripts(document, 'script');</script>
 <h3>toJSON</h3>
 <div class="member-signature"><span class="modifiers">public abstract</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toJSON</span>()</div>
 <div class="block">Convert staff to JSON syntax</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>staff's json syntax</dd>
+</dl>
 </section>
 </li>
 </ul>

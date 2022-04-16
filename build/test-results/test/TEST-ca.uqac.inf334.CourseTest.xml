@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ca.uqac.inf334.CourseTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.064">
+<testsuite name="ca.uqac.inf334.CourseTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-04-16T22:34:21" hostname="Air-de-Sam" time="0.086">
   <properties/>
   <testcase name="TestUniversity()" classname="ca.uqac.inf334.CourseTest" time="0.028"/>
-  <testcase name="TestRoom()" classname="ca.uqac.inf334.CourseTest" time="0.002"/>
-  <testcase name="TestStudent()" classname="ca.uqac.inf334.CourseTest" time="0.006"/>
+  <testcase name="TestRoom()" classname="ca.uqac.inf334.CourseTest" time="0.003"/>
+  <testcase name="TestStudent()" classname="ca.uqac.inf334.CourseTest" time="0.01"/>
   <testcase name="TestToJSON()" classname="ca.uqac.inf334.CourseTest" time="0.002"/>
-  <testcase name="TestProfessor()" classname="ca.uqac.inf334.CourseTest" time="0.008"/>
+  <testcase name="TestProfessor()" classname="ca.uqac.inf334.CourseTest" time="0.025"/>
   <testcase name="TestField()" classname="ca.uqac.inf334.CourseTest" time="0.004"/>
   <system-out><![CDATA[---------- Permanent code (student) ----------
-Permanent code : Stu122110284 belongs to 1
+Permanent code : Stu122110285 belongs to 1
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-1330 is now a room of UQAC
+P2-5140 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-3420 is now a room of UQAC
+P2-5810 is now a room of UQAC
 ---------- Set university (professor) ----------
 Set university to : "Professor 1"
 ---------- Add professor ----------
@@ -81,11 +81,11 @@ The course already take place in this room.
 "Professor 1" doesn't teach this course.
 "Professor 1" professor has no longer course.
 ---------- Remove room (course) ----------
-P3-1330 no longer host the course.
+P2-5140 no longer host the course.
 ---------- Remove course (room) ----------
 "Course" no longer take place in this room.
 ---------- Remove room (course) ----------
-P3-1330 doesn't host this course.
+P2-5140 doesn't host this course.
 ---------- Remove field (course) ----------
 "Field" removed from "Course"'s field list.
 ---------- Remove course (field) ----------
@@ -98,35 +98,35 @@ P3-1330 doesn't host this course.
 "Course" is now a course of CEGEP
 ---------- Set university (course) ----------
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110277 belongs to 1
+Permanent code : Stu122110242 belongs to 1
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-2990 is now a room of UQAC
+P0-3990 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-5520 is now a room of UQAC
+P1-2260 is now a room of UQAC
 ---------- Set room (course) ----------
 ---------- Set course (room) ----------
 ---------- Set room (course) ----------
 The course already take place in this room.
 ---------- Set room (course) ----------
 ---------- Remove room (course) ----------
-P4-2990 no longer host the course.
+P0-3990 no longer host the course.
 ---------- Remove course (room) ----------
 "Course" no longer take place in this room.
 ---------- Remove room (course) ----------
-P4-2990 doesn't host this course.
+P0-3990 doesn't host this course.
 ---------- Set course (room) ----------
 ---------- Set room (course) ----------
 The course already take place in this room.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110281 belongs to 1
+Permanent code : Stu122110226 belongs to 1
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-2970 is now a room of UQAC
+P2-5380 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-4590 is now a room of UQAC
+P0-3650 is now a room of UQAC
 ---------- Set university (professor) ----------
 Set university to : "Professor 1"
 ---------- Add professor ----------
@@ -182,21 +182,21 @@ Not in the same university.
 ---------- Remove student (course) ----------
 "1 Student" doesn't exist in "Course"'s student list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110265 belongs to 1
+Permanent code : Stu122110272 belongs to 1
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-2520 is now a room of UQAC
+P1-5650 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-1910 is now a room of UQAC
+P0-2660 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110262 belongs to 1
+Permanent code : Stu122110259 belongs to 1
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-0200 is now a room of UQAC
+P4-2790 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-2260 is now a room of UQAC
+P1-3260 is now a room of UQAC
 ---------- Set university (professor) ----------
 Set university to : "Professor 1"
 ---------- Add professor ----------
@@ -266,13 +266,13 @@ Set university to : "Professor 2"
 ---------- Set professor (course) ----------
 "Professor 2" is already the professor.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110228 belongs to 1
+Permanent code : Stu122110221 belongs to 1
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-3560 is now a room of UQAC
+P5-5350 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-3140 is now a room of UQAC
+P1-0150 is now a room of UQAC
 ---------- Set university (course) ----------
 ---------- Add course ----------
 "Course" is now a course of UQAC

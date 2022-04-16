@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ca.uqac.inf334.TestAll" tests="40" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.123">
+<testsuite name="ca.uqac.inf334.TestAll" tests="40" skipped="0" failures="0" errors="0" timestamp="2022-04-16T22:34:21" hostname="Air-de-Sam" time="0.131">
   <properties/>
   <testcase name="TestPermanentCode()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestStudentForCourse()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
+  <testcase name="TestStudentForCourse()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
   <testcase name="TestCourseForRoom()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
   <testcase name="TestToStringForStudent()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
   <testcase name="TestToJSONForStudent()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestProfessorForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestProfessorForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
   <testcase name="TestUniversityForStudent()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestToJSONForRoom()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestFieldForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
-  <testcase name="TestUniversityForCourse()" classname="ca.uqac.inf334.TestAll" time="0.003"/>
+  <testcase name="TestToJSONForRoom()" classname="ca.uqac.inf334.TestAll" time="0.003"/>
+  <testcase name="TestFieldForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestUniversityForCourse()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
   <testcase name="TestRemoveCourseForStudent()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestFieldForCourse()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
-  <testcase name="TestUniversityForProfessor()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
-  <testcase name="TestSportForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestUniversityForSecretary()" classname="ca.uqac.inf334.TestAll" time="0.0"/>
-  <testcase name="TestUniversityForAdmin()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestFieldForCourse()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestUniversityForProfessor()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestSportForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
+  <testcase name="TestUniversityForSecretary()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestUniversityForAdmin()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
   <testcase name="TestUniversityForField()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
-  <testcase name="TestProfessorForCourse()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
-  <testcase name="TestStudentForField()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestProfessorForCourse()" classname="ca.uqac.inf334.TestAll" time="0.003"/>
+  <testcase name="TestStudentForField()" classname="ca.uqac.inf334.TestAll" time="0.004"/>
   <testcase name="TestStudentForSport()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestStudentForProfessor()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestSportForStudent()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
-  <testcase name="TestSecretaryForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.004"/>
-  <testcase name="TestStudentForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.003"/>
+  <testcase name="TestStudentForProfessor()" classname="ca.uqac.inf334.TestAll" time="0.003"/>
+  <testcase name="TestSportForStudent()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestSecretaryForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.003"/>
+  <testcase name="TestStudentForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
   <testcase name="TestCourseForField()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestToJSONForAdmin()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
+  <testcase name="TestToJSONForAdmin()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
   <testcase name="TestToJSONForField()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestToJSONForSport()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestRoomForCourse()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestToJSONForSport()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
+  <testcase name="TestRoomForCourse()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
   <testcase name="TestAdminForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
-  <testcase name="TestToJSONForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.007"/>
-  <testcase name="TestRoomForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.003"/>
+  <testcase name="TestToJSONForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.006"/>
+  <testcase name="TestRoomForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
   <testcase name="TestCourseForProfessor()" classname="ca.uqac.inf334.TestAll" time="0.003"/>
   <testcase name="TestToJSONForProfessor()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestCourseForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestCourseForUniversity()" classname="ca.uqac.inf334.TestAll" time="0.003"/>
   <testcase name="TestToJSONForSecretary()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
-  <testcase name="TestToJSONForCourse()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
-  <testcase name="TestGenerateRoom()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
-  <testcase name="TestAddCourseForStudent()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
+  <testcase name="TestToJSONForCourse()" classname="ca.uqac.inf334.TestAll" time="0.001"/>
+  <testcase name="TestGenerateRoom()" classname="ca.uqac.inf334.TestAll" time="0.0"/>
+  <testcase name="TestAddCourseForStudent()" classname="ca.uqac.inf334.TestAll" time="0.003"/>
   <testcase name="TestFieldForStudent()" classname="ca.uqac.inf334.TestAll" time="0.002"/>
   <system-out><![CDATA[---------- Permanent code (student) ----------
-Permanent code : Stu122110242 belongs to 1
+Permanent code : Stu122110266 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110238 belongs to Sam
+Permanent code : BARS22110246 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-0660 is now a room of UQAC
+P1-1950 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-4760 is now a room of UQAC
+P5-3230 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-0800 is now a room of UQAC
+P1-5080 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110268 belongs to 2
+Permanent code : Stu222110219 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110215 belongs to 1
+Permanent code : Stu122110207 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110280 belongs to Sam
+Permanent code : BARS22110232 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-4690 is now a room of UQAC
+P4-5710 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-3950 is now a room of UQAC
+P1-0580 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-3040 is now a room of UQAC
+P0-5490 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110258 belongs to 2
+Permanent code : Stu222110259 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (professor) ----------
@@ -134,22 +134,22 @@ Not in the same university.
 ---------- Remove student (course) ----------
 "1 Student" doesn't exist in "Course"'s student list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110260 belongs to 1
+Permanent code : Stu122110293 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110294 belongs to Sam
+Permanent code : BARS22110218 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-2620 is now a room of UQAC
+P5-4280 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-2270 is now a room of UQAC
+P1-2830 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-0520 is now a room of UQAC
+P3-4360 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110243 belongs to 2
+Permanent code : Stu222110247 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set course (room) ----------
@@ -159,66 +159,66 @@ Permanent code : Stu222110243 belongs to 2
 ---------- Remove course (room) ----------
 "Course1" no longer take place in this room.
 ---------- Remove room (course) ----------
-P5-0520 no longer host the course.
+P3-4360 no longer host the course.
 ---------- Remove course (room) ----------
 "Course1" doesn't take place in this room.
 ---------- Set room (course) ----------
 ---------- Set course (room) ----------
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110223 belongs to 1
+Permanent code : Stu122110252 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110260 belongs to Sam
+Permanent code : BARS22110245 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-0370 is now a room of UQAC
+P0-3640 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-5470 is now a room of UQAC
+P3-5600 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-5930 is now a room of UQAC
+P4-1340 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110234 belongs to 2
+Permanent code : Stu222110242 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110275 belongs to 1
+Permanent code : Stu122110247 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110285 belongs to Sam
+Permanent code : BARS22110204 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-5110 is now a room of UQAC
+P5-1110 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-0670 is now a room of UQAC
+P5-4900 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-3970 is now a room of UQAC
+P3-0400 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110253 belongs to 2
+Permanent code : Stu222110281 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110223 belongs to 1
+Permanent code : Stu122110282 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110293 belongs to Sam
+Permanent code : BARS22110295 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-3910 is now a room of UQAC
+P4-5510 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-4060 is now a room of UQAC
+P1-0690 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-5210 is now a room of UQAC
+P1-1310 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110241 belongs to 2
+Permanent code : Stu222110274 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add professor ----------
@@ -240,22 +240,22 @@ Set university to : "Professor 1"
 ---------- Remove professor ----------
 "Professor 1" doesn't exist in UQAC's professor list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110291 belongs to 1
+Permanent code : Stu122110232 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110229 belongs to Sam
+Permanent code : BARS22110211 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-2700 is now a room of UQAC
+P3-5520 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-3290 is now a room of UQAC
+P4-3830 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-5030 is now a room of UQAC
+P1-2580 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110208 belongs to 2
+Permanent code : Stu222110252 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (student) ----------
@@ -289,41 +289,41 @@ Permanent code : Stu222110208 belongs to 2
 "Sam BARTHAZON" is now a student of CEGEP
 ---------- Set university (student) ----------
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110251 belongs to 1
+Permanent code : Stu122110239 belongs to 1
 ---------- Permanent code (student) ----------
 Permanent code : BARS22110260 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-5270 is now a room of UQAC
+P5-0790 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-4630 is now a room of UQAC
+P5-3470 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-3350 is now a room of UQAC
+P3-1710 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110278 belongs to 2
+Permanent code : Stu222110269 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110243 belongs to 1
+Permanent code : Stu122110283 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110262 belongs to Sam
+Permanent code : BARS22110200 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-0370 is now a room of UQAC
+P3-5430 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-3220 is now a room of UQAC
+P1-0000 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-0400 is now a room of UQAC
+P2-4600 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110238 belongs to 2
+Permanent code : Stu222110203 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add field ----------
@@ -342,22 +342,22 @@ Permanent code : Stu222110238 belongs to 2
 ---------- Remove field ----------
 "Field" doesn't exist in UQAC's field list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110225 belongs to 1
+Permanent code : Stu122110242 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110229 belongs to Sam
+Permanent code : BARS22110211 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-5430 is now a room of UQAC
+P2-4360 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-4260 is now a room of UQAC
+P2-2620 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-3660 is now a room of UQAC
+P0-5110 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110209 belongs to 2
+Permanent code : Stu222110273 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (professor) ----------
@@ -422,11 +422,11 @@ The course already take place in this room.
 "Prof 1" doesn't teach this course.
 "Prof 1" professor has no longer course.
 ---------- Remove room (course) ----------
-P3-5430 no longer host the course.
+P2-4360 no longer host the course.
 ---------- Remove course (room) ----------
 "Course" no longer take place in this room.
 ---------- Remove room (course) ----------
-P3-5430 doesn't host this course.
+P2-4360 doesn't host this course.
 ---------- Remove field (course) ----------
 "Field" removed from "Course"'s field list.
 ---------- Remove course (field) ----------
@@ -439,41 +439,41 @@ P3-5430 doesn't host this course.
 "Course" is now a course of CEGEP
 ---------- Set university (course) ----------
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110222 belongs to 1
+Permanent code : Stu122110201 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110236 belongs to Sam
+Permanent code : BARS22110288 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-2780 is now a room of UQAC
+P3-4810 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-5940 is now a room of UQAC
+P1-2660 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-3430 is now a room of UQAC
+P5-4230 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110234 belongs to 2
+Permanent code : Stu222110223 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110239 belongs to 1
+Permanent code : Stu122110226 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110238 belongs to Sam
+Permanent code : BARS22110296 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-0120 is now a room of UQAC
+P0-4060 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-0030 is now a room of UQAC
+P5-4080 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-2110 is now a room of UQAC
+P5-3060 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110229 belongs to 2
+Permanent code : Stu222110264 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (course) ----------
@@ -499,22 +499,22 @@ Not in the same university.
 ---------- Remove field (course) ----------
 "Field" doesn't exist in "Course"'s field list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110256 belongs to 1
+Permanent code : Stu122110282 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110287 belongs to Sam
+Permanent code : BARS22110224 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-5890 is now a room of UQAC
+P3-0980 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-3260 is now a room of UQAC
+P3-5930 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-2900 is now a room of UQAC
+P0-3400 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110282 belongs to 2
+Permanent code : Stu222110253 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (professor) ----------
@@ -568,22 +568,22 @@ Set university to : "Professor 1"
 ---------- Set university (professor) ----------
 "Professor 1" is already in this university.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110247 belongs to 1
+Permanent code : Stu122110269 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110227 belongs to Sam
+Permanent code : BARS22110278 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-3150 is now a room of UQAC
+P1-0030 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-1860 is now a room of UQAC
+P1-0910 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-0400 is now a room of UQAC
+P4-5490 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110205 belongs to 2
+Permanent code : Stu222110271 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add sport ----------
@@ -607,22 +607,22 @@ Permanent code : Stu222110205 belongs to 2
 ---------- Remove sport ----------
 "Sport" doesn't exist in UQAC's sport list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110208 belongs to 1
+Permanent code : Stu122110201 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110221 belongs to Sam
+Permanent code : BARS22110234 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-5100 is now a room of UQAC
+P4-1570 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-3510 is now a room of UQAC
+P0-3560 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-2500 is now a room of UQAC
+P3-1430 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110255 belongs to 2
+Permanent code : Stu222110232 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (secretary) ----------
@@ -644,22 +644,22 @@ Set university to : "1 Secretary"
 "1 Secretary" is now a secretary of CEGEP
 ---------- Set university (secretary) ----------
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110236 belongs to 1
+Permanent code : Stu122110225 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110270 belongs to Sam
+Permanent code : BARS22110232 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-5580 is now a room of UQAC
+P3-2420 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-5480 is now a room of UQAC
+P4-5380 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-5500 is now a room of UQAC
+P5-5320 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110297 belongs to 2
+Permanent code : Stu222110291 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (admin) ----------
@@ -681,22 +681,22 @@ Set university to : "1 Admin"
 "1 Admin" is now an admin of CEGEP
 ---------- Set university (admin) ----------
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110231 belongs to 1
+Permanent code : Stu122110244 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110230 belongs to Sam
+Permanent code : BARS22110207 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-2350 is now a room of UQAC
+P0-1800 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-0720 is now a room of UQAC
+P3-0260 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-1010 is now a room of UQAC
+P3-5110 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110208 belongs to 2
+Permanent code : Stu222110261 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (field) ----------
@@ -744,22 +744,22 @@ Permanent code : Stu222110208 belongs to 2
 "Field" is now a field of CEGEP
 ---------- Set university (field) ----------
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110261 belongs to 1
+Permanent code : Stu122110258 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110222 belongs to Sam
+Permanent code : BARS22110234 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-3990 is now a room of UQAC
+P0-1650 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-4580 is now a room of UQAC
+P4-5340 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-0920 is now a room of UQAC
+P4-3560 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110294 belongs to 2
+Permanent code : Stu222110244 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (professor) ----------
@@ -831,22 +831,22 @@ Set university to : "Professor 2"
 ---------- Set professor (course) ----------
 "Professor 2" is already the professor.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110259 belongs to 1
+Permanent code : Stu122110222 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110271 belongs to Sam
+Permanent code : BARS22110296 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-2890 is now a room of UQAC
+P5-0080 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-5620 is now a room of UQAC
+P4-2310 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-0290 is now a room of UQAC
+P2-1850 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110292 belongs to 2
+Permanent code : Stu222110259 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (field) ----------
@@ -884,22 +884,22 @@ Permanent code : Stu222110292 belongs to 2
 ---------- Remove student (field) ----------
 "1 Student" doesn't exist in "Field"'s student list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110298 belongs to 1
+Permanent code : Stu122110208 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110243 belongs to Sam
+Permanent code : BARS22110277 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-0940 is now a room of UQAC
+P5-5000 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-3090 is now a room of UQAC
+P0-0510 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-4750 is now a room of UQAC
+P2-5800 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110267 belongs to 2
+Permanent code : Stu222110279 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add student (sport) ----------
@@ -915,22 +915,22 @@ Permanent code : Stu222110267 belongs to 2
 "1 Student" doesn't practice this sport.
 "Sport" removed from "1 Student"'s sport list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110215 belongs to 1
+Permanent code : Stu122110230 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110264 belongs to Sam
+Permanent code : BARS22110269 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-3790 is now a room of UQAC
+P4-3400 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-0600 is now a room of UQAC
+P2-4030 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-3280 is now a room of UQAC
+P1-5770 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110273 belongs to 2
+Permanent code : Stu222110291 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (professor) ----------
@@ -988,22 +988,22 @@ The student isn't in the same university.
 ---------- Remove student (professor) ----------
 "1 Student" isn't in "Professor 1"'s student list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110240 belongs to 1
+Permanent code : Stu122110226 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110206 belongs to Sam
+Permanent code : BARS22110271 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-3400 is now a room of UQAC
+P5-3130 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-5690 is now a room of UQAC
+P0-1220 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-1370 is now a room of UQAC
+P1-3980 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110262 belongs to 2
+Permanent code : Stu222110252 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add sport (student) ----------
@@ -1019,22 +1019,22 @@ Permanent code : Stu222110262 belongs to 2
 "Sport" doesn't exist in "Sam BARTHAZON"'s sport list.
 "Sport" removed from "Sam BARTHAZON"'s sport list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110254 belongs to 1
+Permanent code : Stu122110261 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110246 belongs to Sam
+Permanent code : BARS22110258 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-2110 is now a room of UQAC
+P2-1790 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-1970 is now a room of UQAC
+P5-2060 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-1090 is now a room of UQAC
+P4-4640 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110218 belongs to 2
+Permanent code : Stu222110216 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add secretary ----------
@@ -1055,22 +1055,22 @@ Set university to : "1 Secretary"
 ---------- Remove secretary ----------
 "1 Secretary" doesn't exist in UQAC's secretary list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110237 belongs to 1
+Permanent code : Stu122110216 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110225 belongs to Sam
+Permanent code : BARS22110238 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-5410 is now a room of UQAC
+P0-5320 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-3240 is now a room of UQAC
+P0-5410 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-1640 is now a room of UQAC
+P0-2200 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110249 belongs to 2
+Permanent code : Stu222110294 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add student ----------
@@ -1092,22 +1092,22 @@ Permanent code : Stu222110249 belongs to 2
 ---------- Remove student ----------
 "1 Student" doesn't exist in UQAC's student list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110224 belongs to 1
+Permanent code : Stu122110268 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110256 belongs to Sam
+Permanent code : BARS22110220 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-2290 is now a room of UQAC
+P0-2950 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-3480 is now a room of UQAC
+P1-4630 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-0690 is now a room of UQAC
+P5-4250 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110204 belongs to 2
+Permanent code : Stu222110201 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (field) ----------
@@ -1149,79 +1149,79 @@ null doesn't host this course.
 ---------- Remove course (field) ----------
 "Course" doesn't exist in "Field"'s courses list
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110223 belongs to 1
+Permanent code : Stu122110203 belongs to 1
 ---------- Permanent code (student) ----------
 Permanent code : BARS22110241 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-0270 is now a room of UQAC
+P4-1080 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-1720 is now a room of UQAC
+P5-2470 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-1150 is now a room of UQAC
+P1-5330 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110274 belongs to 2
+Permanent code : Stu222110287 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110201 belongs to 1
+Permanent code : Stu122110214 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110288 belongs to Sam
+Permanent code : BARS22110263 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-4080 is now a room of UQAC
+P0-1130 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-5460 is now a room of UQAC
+P1-0480 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-5850 is now a room of UQAC
+P0-1670 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110219 belongs to 2
+Permanent code : Stu222110208 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110223 belongs to 1
+Permanent code : Stu122110258 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110201 belongs to Sam
+Permanent code : BARS22110251 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-2840 is now a room of UQAC
+P4-4200 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-1630 is now a room of UQAC
+P1-5750 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-0340 is now a room of UQAC
+P3-4860 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110204 belongs to 2
+Permanent code : Stu222110259 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110250 belongs to 1
+Permanent code : Stu122110264 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110215 belongs to Sam
+Permanent code : BARS22110240 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-5340 is now a room of UQAC
+P4-1330 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-2930 is now a room of UQAC
+P3-2940 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-0210 is now a room of UQAC
+P0-2640 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110209 belongs to 2
+Permanent code : Stu222110236 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set room (course) ----------
@@ -1230,31 +1230,31 @@ Permanent code : Stu222110209 belongs to 2
 The course already take place in this room.
 ---------- Set room (course) ----------
 ---------- Remove room (course) ----------
-P1-5340 no longer host the course.
+P4-1330 no longer host the course.
 ---------- Remove course (room) ----------
 "Course" no longer take place in this room.
 ---------- Remove room (course) ----------
-P1-5340 doesn't host this course.
+P4-1330 doesn't host this course.
 ---------- Set course (room) ----------
 ---------- Set room (course) ----------
 The course already take place in this room.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110246 belongs to 1
+Permanent code : Stu122110233 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110214 belongs to Sam
+Permanent code : BARS22110253 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-2100 is now a room of UQAC
+P1-0160 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-4570 is now a room of UQAC
+P3-5630 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-4750 is now a room of UQAC
+P2-3470 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110221 belongs to 2
+Permanent code : Stu222110207 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add admin ----------
@@ -1275,22 +1275,22 @@ Set university to : "1 Admin"
 ---------- Remove admin ----------
 "1 Admin" doesn't exist in UQAC's admin list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110279 belongs to 1
+Permanent code : Stu122110245 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110267 belongs to Sam
+Permanent code : BARS22110243 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-0530 is now a room of UQAC
+P0-0580 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-4360 is now a room of UQAC
+P5-2610 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-1820 is now a room of UQAC
+P3-2360 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110233 belongs to 2
+Permanent code : Stu222110296 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add admin ----------
@@ -1364,7 +1364,7 @@ Set university to : "Professor 2"
 ---------- Add sport ----------
 "Sport2" is already a sport of UQAC
 ---------- Add room ----------
-P4-1820 is already a room of UQAC
+P3-2360 is already a room of UQAC
 {
 "UQAC": {
 	"Name" : "UQAC",
@@ -1382,26 +1382,26 @@ P4-1820 is already a room of UQAC
 	],
 	"Secretaries" : [
 		{
-			"Firstname" : "Secretary",
-			"Lastname" : "1",
+			"Firstname" : "2",
+			"Lastname" : "Secretary",
 			"Function" : "Secretary"
 		},
 		{
-			"Firstname" : "2",
-			"Lastname" : "Secretary",
+			"Firstname" : "Secretary",
+			"Lastname" : "1",
 			"Function" : "Secretary"
 		}
 	],
 	"Professors" : [
 			{
-			"Firstname" : "1",
+			"Firstname" : "2",
 			"Lastname" : "Professor",
 			"Function" : "Professor",
 			"Course" : null,
 			"Student list" : []
 			},
 			{
-			"Firstname" : "2",
+			"Firstname" : "1",
 			"Lastname" : "Professor",
 			"Function" : "Professor",
 			"Course" : null,
@@ -1413,7 +1413,7 @@ P4-1820 is already a room of UQAC
 			"Firstname" : "1",
 			"Lastname" : "Student",
 			"Birthday" : "22/11/02",
-			"Permanent Code" : "Stu122110279",
+			"Permanent Code" : "Stu122110245",
 			"Field" : null,
 			"Courses list" : [],
 			"Sport list" : []
@@ -1422,7 +1422,7 @@ P4-1820 is already a room of UQAC
 			"Firstname" : "2",
 			"Lastname" : "Student",
 			"Birthday" : "22/11/02",
-			"Permanent Code" : "Stu222110233",
+			"Permanent Code" : "Stu222110296",
 			"Field" : null,
 			"Courses list" : [],
 			"Sport list" : []
@@ -1430,25 +1430,25 @@ P4-1820 is already a room of UQAC
 	],
 	"Fields" : [
 		{
-			"Name" : "Field2",
+			"Name" : "Field",
 			"Courses list" : [],
 			"Student list" : []
 		},
 		{
-			"Name" : "Field",
+			"Name" : "Field2",
 			"Courses list" : [],
 			"Student list" : []
 		}
 	],
 	"Courses" : [
 		{
-			"Name" : "Course2",
+			"Name" : "Course",
 			"Professor" : null,
 			"Field list" : [],
 			"Room" : "null"
 		},
 		{
-			"Name" : "Course",
+			"Name" : "Course2",
 			"Professor" : null,
 			"Field list" : [],
 			"Room" : "null"
@@ -1457,15 +1457,15 @@ P4-1820 is already a room of UQAC
 	"Rooms" : [
 		{
 			"Course" : null,
-			"Room number" : "P4-1820"
+			"Room number" : "P5-2610"
 		},
 		{
 			"Course" : null,
-			"Room number" : "P0-0530"
+			"Room number" : "P3-2360"
 		},
 		{
 			"Course" : null,
-			"Room number" : "P2-4360"
+			"Room number" : "P0-0580"
 		}
 	],
 	"Sports" : [
@@ -1481,49 +1481,49 @@ P4-1820 is already a room of UQAC
 }
 }
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110210 belongs to 1
+Permanent code : Stu122110249 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110258 belongs to Sam
+Permanent code : BARS22110213 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-5500 is now a room of UQAC
+P0-4910 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-0030 is now a room of UQAC
+P4-0990 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-3430 is now a room of UQAC
+P4-5610 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110278 belongs to 2
+Permanent code : Stu222110284 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add room ----------
-P5-3430 is already a room of UQAC
+P4-5610 is already a room of UQAC
 ---------- Add room ----------
-P5-3430 is already a room of UQAC
+P4-5610 is already a room of UQAC
 ---------- Remove room ----------
-P5-3430 removed from UQAC's room list.
+P4-5610 removed from UQAC's room list.
 ---------- Remove room ----------
-P5-3430 doesn't exist in UQAC's room list.
+P4-5610 doesn't exist in UQAC's room list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110203 belongs to 1
+Permanent code : Stu122110214 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110272 belongs to Sam
+Permanent code : BARS22110228 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-2250 is now a room of UQAC
+P5-4080 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-1750 is now a room of UQAC
+P2-5520 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-5820 is now a room of UQAC
+P2-0150 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110210 belongs to 2
+Permanent code : Stu222110211 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set course (professor) ----------
@@ -1577,41 +1577,41 @@ Professor "Professor 1" already have "Course1" course.
 ---------- Set course (professor) ----------
 Professor "Professor 1" already have "Course2" course.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110231 belongs to 1
+Permanent code : Stu122110227 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110298 belongs to Sam
+Permanent code : BARS22110215 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-5500 is now a room of UQAC
+P0-5440 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-4550 is now a room of UQAC
+P4-0710 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-0620 is now a room of UQAC
+P3-3840 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110220 belongs to 2
+Permanent code : Stu222110256 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110216 belongs to 1
+Permanent code : Stu122110290 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110225 belongs to Sam
+Permanent code : BARS22110252 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-3320 is now a room of UQAC
+P1-2040 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-5560 is now a room of UQAC
+P4-5550 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-3830 is now a room of UQAC
+P5-2040 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110265 belongs to 2
+Permanent code : Stu222110292 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Add course ----------
@@ -1635,79 +1635,79 @@ null doesn't host this course.
 ---------- Remove course ----------
 "Course" doesn't exist in UQAC's course list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110259 belongs to 1
+Permanent code : Stu122110202 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110239 belongs to Sam
+Permanent code : BARS22110254 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-4070 is now a room of UQAC
+P0-2280 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-4480 is now a room of UQAC
+P5-5850 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-4330 is now a room of UQAC
+P3-4340 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110235 belongs to 2
+Permanent code : Stu222110229 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110289 belongs to 1
+Permanent code : Stu122110236 belongs to 1
+---------- Permanent code (student) ----------
+Permanent code : BARS22110292 belongs to Sam
+---------- Add sport ----------
+"Sport" is now a sport of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P2-2440 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P3-0390 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P0-3210 is now a room of UQAC
+---------- Permanent code (student) ----------
+Permanent code : Stu222110219 belongs to 2
+---------- Add sport ----------
+"Sport2" is now a sport of UQAC
+---------- Permanent code (student) ----------
+Permanent code : Stu122110297 belongs to 1
+---------- Permanent code (student) ----------
+Permanent code : BARS22110231 belongs to Sam
+---------- Add sport ----------
+"Sport" is now a sport of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P5-1950 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P2-3380 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P4-1080 is now a room of UQAC
+---------- Permanent code (student) ----------
+Permanent code : Stu222110290 belongs to 2
+---------- Add sport ----------
+"Sport2" is now a sport of UQAC
+---------- Permanent code (student) ----------
+Permanent code : Stu122110298 belongs to 1
 ---------- Permanent code (student) ----------
 Permanent code : BARS22110258 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-2330 is now a room of UQAC
+P0-2570 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-2270 is now a room of UQAC
+P1-5220 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-5550 is now a room of UQAC
+P1-5010 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110262 belongs to 2
----------- Add sport ----------
-"Sport2" is now a sport of UQAC
----------- Permanent code (student) ----------
-Permanent code : Stu122110208 belongs to 1
----------- Permanent code (student) ----------
-Permanent code : BARS22110246 belongs to Sam
----------- Add sport ----------
-"Sport" is now a sport of UQAC
----------- Generate room (room) ----------
----------- Add room ----------
-P0-2330 is now a room of UQAC
----------- Generate room (room) ----------
----------- Add room ----------
-P1-2570 is now a room of UQAC
----------- Generate room (room) ----------
----------- Add room ----------
-P0-5570 is now a room of UQAC
----------- Permanent code (student) ----------
-Permanent code : Stu222110284 belongs to 2
----------- Add sport ----------
-"Sport2" is now a sport of UQAC
----------- Permanent code (student) ----------
-Permanent code : Stu122110226 belongs to 1
----------- Permanent code (student) ----------
-Permanent code : BARS22110218 belongs to Sam
----------- Add sport ----------
-"Sport" is now a sport of UQAC
----------- Generate room (room) ----------
----------- Add room ----------
-P3-0830 is now a room of UQAC
----------- Generate room (room) ----------
----------- Add room ----------
-P1-1770 is now a room of UQAC
----------- Generate room (room) ----------
----------- Add room ----------
-P0-1160 is now a room of UQAC
----------- Permanent code (student) ----------
-Permanent code : Stu222110243 belongs to 2
+Permanent code : Stu222110206 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (professor) ----------
@@ -1762,22 +1762,22 @@ Not in the same university.
 ---------- Add student (professor) ----------
 "Sam BARTHAZON" already in "Prof 1"'s student list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110297 belongs to 1
+Permanent code : Stu122110275 belongs to 1
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110298 belongs to Sam
+Permanent code : BARS22110231 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-4900 is now a room of UQAC
+P4-1270 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-4930 is now a room of UQAC
+P1-2420 is now a room of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P0-5700 is now a room of UQAC
+P2-3370 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu222110266 belongs to 2
+Permanent code : Stu222110223 belongs to 2
 ---------- Add sport ----------
 "Sport2" is now a sport of UQAC
 ---------- Set university (professor) ----------

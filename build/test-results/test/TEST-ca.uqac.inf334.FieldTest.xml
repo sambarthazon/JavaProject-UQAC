@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ca.uqac.inf334.FieldTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.043">
+<testsuite name="ca.uqac.inf334.FieldTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-04-16T22:34:21" hostname="Air-de-Sam" time="0.024">
   <properties/>
-  <testcase name="TestUniversity()" classname="ca.uqac.inf334.FieldTest" time="0.012"/>
-  <testcase name="TestCourse()" classname="ca.uqac.inf334.FieldTest" time="0.014"/>
-  <testcase name="TestStudent()" classname="ca.uqac.inf334.FieldTest" time="0.009"/>
-  <testcase name="TestToJSON()" classname="ca.uqac.inf334.FieldTest" time="0.002"/>
+  <testcase name="TestUniversity()" classname="ca.uqac.inf334.FieldTest" time="0.009"/>
+  <testcase name="TestCourse()" classname="ca.uqac.inf334.FieldTest" time="0.005"/>
+  <testcase name="TestStudent()" classname="ca.uqac.inf334.FieldTest" time="0.004"/>
+  <testcase name="TestToJSON()" classname="ca.uqac.inf334.FieldTest" time="0.001"/>
   <system-out><![CDATA[---------- Permanent code (student) ----------
-Permanent code : Stu122110237 belongs to 1
+Permanent code : Stu122110253 belongs to 1
 ---------- Set university (field) ----------
 ---------- Add field ----------
 "Field" is now a field of UQAC
@@ -52,7 +52,7 @@ Permanent code : Stu122110237 belongs to 1
 "Field" is now a field of CEGEP
 ---------- Set university (field) ----------
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110273 belongs to 1
+Permanent code : Stu122110285 belongs to 1
 ---------- Set university (field) ----------
 ---------- Add field ----------
 "Field" is now a field of UQAC
@@ -94,7 +94,7 @@ null doesn't host this course.
 ---------- Remove course (field) ----------
 "Course" doesn't exist in "Field"'s courses list
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110200 belongs to 1
+Permanent code : Stu122110225 belongs to 1
 ---------- Set university (field) ----------
 ---------- Add field ----------
 "Field" is now a field of UQAC
@@ -130,7 +130,7 @@ Permanent code : Stu122110200 belongs to 1
 ---------- Remove student (field) ----------
 "1 Student" doesn't exist in "Field"'s student list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110261 belongs to 1
+Permanent code : Stu122110287 belongs to 1
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

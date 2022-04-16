@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ca.uqac.inf334.StudentTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.028">
+<testsuite name="ca.uqac.inf334.StudentTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-04-16T22:34:21" hostname="Air-de-Sam" time="0.023">
   <properties/>
   <testcase name="TestPermanentCode()" classname="ca.uqac.inf334.StudentTest" time="0.001"/>
   <testcase name="TestUniversity()" classname="ca.uqac.inf334.StudentTest" time="0.002"/>
   <testcase name="TestRemoveCourse()" classname="ca.uqac.inf334.StudentTest" time="0.001"/>
   <testcase name="TestToString()" classname="ca.uqac.inf334.StudentTest" time="0.001"/>
-  <testcase name="TestToJSON()" classname="ca.uqac.inf334.StudentTest" time="0.006"/>
-  <testcase name="TestField()" classname="ca.uqac.inf334.StudentTest" time="0.002"/>
-  <testcase name="TestSport()" classname="ca.uqac.inf334.StudentTest" time="0.001"/>
-  <testcase name="TestAddCourse()" classname="ca.uqac.inf334.StudentTest" time="0.003"/>
+  <testcase name="TestToJSON()" classname="ca.uqac.inf334.StudentTest" time="0.001"/>
+  <testcase name="TestField()" classname="ca.uqac.inf334.StudentTest" time="0.004"/>
+  <testcase name="TestSport()" classname="ca.uqac.inf334.StudentTest" time="0.002"/>
+  <testcase name="TestAddCourse()" classname="ca.uqac.inf334.StudentTest" time="0.002"/>
   <system-out><![CDATA[---------- Permanent code (student) ----------
-Permanent code : BARS22110214 belongs to Sam
+Permanent code : BARS22110296 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110234 belongs to Sam
+Permanent code : BARS22110283 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Set university (student) ----------
@@ -48,19 +48,19 @@ Permanent code : BARS22110234 belongs to Sam
 "Sam BARTHAZON" is now a student of CEGEP
 ---------- Set university (student) ----------
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110286 belongs to Sam
+Permanent code : BARS22110285 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110287 belongs to Sam
+Permanent code : BARS22110200 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110289 belongs to Sam
+Permanent code : BARS22110251 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110226 belongs to Sam
+Permanent code : BARS22110243 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Set university (professor) ----------
@@ -126,7 +126,7 @@ Professor "Prof 1" already have "Course1" course.
 "Sam BARTHAZON" is now in this field.
 ---------- Set field (student) ----------
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110237 belongs to Sam
+Permanent code : BARS22110285 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Add sport (student) ----------
@@ -142,7 +142,7 @@ Permanent code : BARS22110237 belongs to Sam
 "Sport" doesn't exist in "Sam BARTHAZON"'s sport list.
 "Sport" removed from "Sam BARTHAZON"'s sport list.
 ---------- Permanent code (student) ----------
-Permanent code : BARS22110289 belongs to Sam
+Permanent code : BARS22110261 belongs to Sam
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Set university (professor) ----------

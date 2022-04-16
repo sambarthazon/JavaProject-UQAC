@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ca.uqac.inf334.SportTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.007">
+<testsuite name="ca.uqac.inf334.SportTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-16T22:34:21" hostname="Air-de-Sam" time="0.008">
   <properties/>
-  <testcase name="TestStudent()" classname="ca.uqac.inf334.SportTest" time="0.003"/>
+  <testcase name="TestStudent()" classname="ca.uqac.inf334.SportTest" time="0.004"/>
   <testcase name="TestToJSON()" classname="ca.uqac.inf334.SportTest" time="0.002"/>
   <system-out><![CDATA[---------- Permanent code (student) ----------
-Permanent code : Stu122110278 belongs to 1
+Permanent code : Stu122110236 belongs to 1
 ---------- Add sport ----------
 "sport" is now a sport of UQAC
 ---------- Add student (sport) ----------
@@ -20,7 +20,7 @@ Permanent code : Stu122110278 belongs to 1
 "1 Student" doesn't practice this sport.
 "sport" removed from "1 Student"'s sport list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110288 belongs to 1
+Permanent code : Stu122110231 belongs to 1
 ---------- Add sport ----------
 "sport" is now a sport of UQAC
 ]]></system-out>

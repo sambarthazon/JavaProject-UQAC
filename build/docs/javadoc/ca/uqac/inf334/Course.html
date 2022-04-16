@@ -95,6 +95,7 @@ loadScripts(document, 'script');</script>
 <hr>
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">Course</span>
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>
+<div class="block">Course's class</div>
 </section>
 <section class="summary">
 <ul class="summary-list">
@@ -206,7 +207,7 @@ loadScripts(document, 'script');</script>
 <div class="block">Course's constructor</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>name</code> - </dd>
+<dd><code>name</code> - course's name</dd>
 </dl>
 </section>
 </li>
@@ -227,7 +228,7 @@ loadScripts(document, 'script');</script>
  its attributes will be reset.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>newUniversity</code> - </dd>
+<dd><code>newUniversity</code> - course's new university</dd>
 </dl>
 </section>
 </li>
@@ -239,7 +240,7 @@ loadScripts(document, 'script');</script>
  This action also delete the professor, the room, the students and the fields of the course.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>university</code> - </dd>
+<dd><code>university</code> - course's university</dd>
 </dl>
 </section>
 </li>
@@ -252,7 +253,7 @@ loadScripts(document, 'script');</script>
  If we set a professor to a course which it already has one, the old professor will be removed.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>newProfessor</code> - </dd>
+<dd><code>newProfessor</code> - course's new professor</dd>
 </dl>
 </section>
 </li>
@@ -264,7 +265,7 @@ loadScripts(document, 'script');</script>
  This action also remove the course of the professor.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>professor</code> - </dd>
+<dd><code>professor</code> - coures's professor</dd>
 </dl>
 </section>
 </li>
@@ -276,7 +277,7 @@ loadScripts(document, 'script');</script>
  The course's university and the new room must be in the same university.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>newRoom</code> - </dd>
+<dd><code>newRoom</code> - course's new room</dd>
 </dl>
 </section>
 </li>
@@ -288,7 +289,7 @@ loadScripts(document, 'script');</script>
  This action also remove the course of the room.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>room</code> - </dd>
+<dd><code>room</code> - course's room</dd>
 </dl>
 </section>
 </li>
@@ -301,7 +302,7 @@ loadScripts(document, 'script');</script>
  This action also add the course to the student and add the student to the professor's student list.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>student</code> - </dd>
+<dd><code>student</code> - course's student</dd>
 </dl>
 </section>
 </li>
@@ -313,7 +314,7 @@ loadScripts(document, 'script');</script>
  This action also remove the course of the student and remove the student from the professor's student list.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>student</code> - </dd>
+<dd><code>student</code> - course's student</dd>
 </dl>
 </section>
 </li>
@@ -326,7 +327,7 @@ loadScripts(document, 'script');</script>
  This action also add the course to the field's course list.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>field</code> - </dd>
+<dd><code>field</code> - course's field</dd>
 </dl>
 </section>
 </li>
@@ -338,7 +339,7 @@ loadScripts(document, 'script');</script>
  This action also remove the course from the field's course list.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>field</code> - </dd>
+<dd><code>field</code> - course's field</dd>
 </dl>
 </section>
 </li>
@@ -361,7 +362,7 @@ loadScripts(document, 'script');</script>
 <div class="block">Convert course in JSON syntax</div>
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>str</dd>
+<dd>str course's json syntax</dd>
 </dl>
 </section>
 </li>

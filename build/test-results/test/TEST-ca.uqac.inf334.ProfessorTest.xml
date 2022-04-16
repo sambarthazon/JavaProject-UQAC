@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ca.uqac.inf334.ProfessorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.038">
+<testsuite name="ca.uqac.inf334.ProfessorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-04-16T22:34:21" hostname="Air-de-Sam" time="0.027">
   <properties/>
-  <testcase name="TestUniversity()" classname="ca.uqac.inf334.ProfessorTest" time="0.007"/>
-  <testcase name="TestCourse()" classname="ca.uqac.inf334.ProfessorTest" time="0.007"/>
-  <testcase name="TestStudent()" classname="ca.uqac.inf334.ProfessorTest" time="0.005"/>
+  <testcase name="TestUniversity()" classname="ca.uqac.inf334.ProfessorTest" time="0.005"/>
+  <testcase name="TestCourse()" classname="ca.uqac.inf334.ProfessorTest" time="0.008"/>
+  <testcase name="TestStudent()" classname="ca.uqac.inf334.ProfessorTest" time="0.003"/>
   <testcase name="TestToJSON()" classname="ca.uqac.inf334.ProfessorTest" time="0.007"/>
   <system-out><![CDATA[---------- Permanent code (student) ----------
-Permanent code : Stu122110291 belongs to 1
+Permanent code : Stu122110278 belongs to 1
 ---------- Set university (professor) ----------
 Set university to : "Professor 1"
 ---------- Add professor ----------
@@ -58,7 +58,7 @@ Set university to : "Professor 1"
 ---------- Set university (professor) ----------
 "Professor 1" is already in this university.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110259 belongs to 1
+Permanent code : Stu122110229 belongs to 1
 ---------- Set course (professor) ----------
 "Professor 1" hasn't university.
 ---------- Set university (professor) ----------
@@ -110,7 +110,7 @@ Professor "Professor 1" already have "Course1" course.
 ---------- Set course (professor) ----------
 Professor "Professor 1" already have "Course2" course.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110221 belongs to 1
+Permanent code : Stu122110206 belongs to 1
 ---------- Set university (professor) ----------
 Set university to : "Professor 1"
 ---------- Add professor ----------
@@ -166,7 +166,7 @@ The student isn't in the same university.
 ---------- Remove student (professor) ----------
 "1 Student" isn't in "Professor 1"'s student list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110249 belongs to 1
+Permanent code : Stu122110207 belongs to 1
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

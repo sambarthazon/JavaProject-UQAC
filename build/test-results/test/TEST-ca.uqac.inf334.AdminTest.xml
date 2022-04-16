@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ca.uqac.inf334.AdminTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.044">
+<testsuite name="ca.uqac.inf334.AdminTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-16T22:34:21" hostname="Air-de-Sam" time="0.082">
   <properties/>
-  <testcase name="TestUniversity()" classname="ca.uqac.inf334.AdminTest" time="0.035"/>
-  <testcase name="TestToJSON()" classname="ca.uqac.inf334.AdminTest" time="0.007"/>
+  <testcase name="TestUniversity()" classname="ca.uqac.inf334.AdminTest" time="0.07"/>
+  <testcase name="TestToJSON()" classname="ca.uqac.inf334.AdminTest" time="0.009"/>
   <system-out><![CDATA[---------- Set university (admin) ----------
 Set university to : "1 Admin"
 ---------- Add admin ----------

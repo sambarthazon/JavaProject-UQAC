@@ -58,7 +58,7 @@
 			"Firstname" : "Sam",
 			"Lastname" : "BARTHAZON",
 			"Birthday" : "22/11/02",
-			"Permanent Code" : "BARS22110230",
+			"Permanent Code" : "BARS22110240",
 			"Field" : "Informatique",
 			"Courses list" : ["POO"],
 			"Sport list" : []
@@ -87,16 +87,20 @@
 			"Name" : "POO",
 			"Professor" : "Demongivert Cedric",
 			"Field list" : ["Informatique"],
-			"Room" : "P0-3360"
+			"Room" : "P5-0020"
 		}
 	],
 	"Rooms" : [
 		{
 			"Course" : "POO",
-			"Room number" : "P0-3360"
+			"Room number" : "P5-0020"
 		}
 	],
 	"Sports" : [
+		{
+			"Name" : "Rugby",
+			"Student list" : ["Victor RIVET"]
+		}
 	]
 }
 }

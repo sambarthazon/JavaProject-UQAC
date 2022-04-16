@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ca.uqac.inf334.UniversityTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.017">
+<testsuite name="ca.uqac.inf334.UniversityTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-04-16T22:34:21" hostname="Air-de-Sam" time="0.048">
   <properties/>
-  <testcase name="TestRoom()" classname="ca.uqac.inf334.UniversityTest" time="0.001"/>
-  <testcase name="TestCourse()" classname="ca.uqac.inf334.UniversityTest" time="0.001"/>
-  <testcase name="TestStudent()" classname="ca.uqac.inf334.UniversityTest" time="0.002"/>
+  <testcase name="TestRoom()" classname="ca.uqac.inf334.UniversityTest" time="0.006"/>
+  <testcase name="TestCourse()" classname="ca.uqac.inf334.UniversityTest" time="0.002"/>
+  <testcase name="TestStudent()" classname="ca.uqac.inf334.UniversityTest" time="0.003"/>
   <testcase name="TestToJSON()" classname="ca.uqac.inf334.UniversityTest" time="0.0"/>
-  <testcase name="TestProfessor()" classname="ca.uqac.inf334.UniversityTest" time="0.001"/>
+  <testcase name="TestProfessor()" classname="ca.uqac.inf334.UniversityTest" time="0.003"/>
   <testcase name="TestSecretary()" classname="ca.uqac.inf334.UniversityTest" time="0.001"/>
   <testcase name="TestAdmin()" classname="ca.uqac.inf334.UniversityTest" time="0.001"/>
   <testcase name="TestField()" classname="ca.uqac.inf334.UniversityTest" time="0.001"/>
-  <testcase name="TestSport()" classname="ca.uqac.inf334.UniversityTest" time="0.001"/>
+  <testcase name="TestSport()" classname="ca.uqac.inf334.UniversityTest" time="0.002"/>
   <system-out><![CDATA[---------- Permanent code (student) ----------
-Permanent code : Stu122110284 belongs to 1
+Permanent code : Stu122110263 belongs to 1
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-0410 is now a room of UQAC
+P3-4260 is now a room of UQAC
 ---------- Add room ----------
-P2-0410 is already a room of UQAC
+P3-4260 is already a room of UQAC
 ---------- Add room ----------
-P2-0410 is already a room of UQAC
+P3-4260 is already a room of UQAC
 ---------- Remove room ----------
-P2-0410 removed from UQAC's room list.
+P3-4260 removed from UQAC's room list.
 ---------- Remove room ----------
-P2-0410 doesn't exist in UQAC's room list.
+P3-4260 doesn't exist in UQAC's room list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110294 belongs to 1
+Permanent code : Stu122110265 belongs to 1
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-0070 is now a room of UQAC
+P3-2140 is now a room of UQAC
 ---------- Add course ----------
 "Course" is now a course of UQAC
 ---------- Set university (course) ----------
@@ -53,12 +53,12 @@ null doesn't host this course.
 ---------- Remove course ----------
 "Course" doesn't exist in UQAC's course list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110285 belongs to 1
+Permanent code : Stu122110299 belongs to 1
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P5-4350 is now a room of UQAC
+P5-2800 is now a room of UQAC
 ---------- Add student ----------
 "1 Student" is now a student of UQAC
 ---------- Set university (student) ----------
@@ -78,19 +78,19 @@ P5-4350 is now a room of UQAC
 ---------- Remove student ----------
 "1 Student" doesn't exist in UQAC's student list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110288 belongs to 1
+Permanent code : Stu122110265 belongs to 1
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-0630 is now a room of UQAC
+P0-2940 is now a room of UQAC
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110243 belongs to 1
+Permanent code : Stu122110248 belongs to 1
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P1-3090 is now a room of UQAC
+P4-2700 is now a room of UQAC
 ---------- Add professor ----------
 "Professor 1" is now a professor of UQAC
 ---------- Set university (professor) ----------
@@ -110,12 +110,12 @@ Set university to : "Professor 1"
 ---------- Remove professor ----------
 "Professor 1" doesn't exist in UQAC's professor list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110279 belongs to 1
+Permanent code : Stu122110289 belongs to 1
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-0180 is now a room of UQAC
+P5-0490 is now a room of UQAC
 ---------- Add secretary ----------
 "Secretary 1" is now a secretary of UQAC
 ---------- Set university (secretary) ----------
@@ -134,12 +134,12 @@ Set university to : "Secretary 1"
 ---------- Remove secretary ----------
 "Secretary 1" doesn't exist in UQAC's secretary list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110228 belongs to 1
+Permanent code : Stu122110291 belongs to 1
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P2-3740 is now a room of UQAC
+P2-3060 is now a room of UQAC
 ---------- Add admin ----------
 "Admin 1" is now an admin of UQAC
 ---------- Set university (admin) ----------
@@ -158,12 +158,12 @@ Set university to : "Admin 1"
 ---------- Remove admin ----------
 "Admin 1" doesn't exist in UQAC's admin list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110299 belongs to 1
+Permanent code : Stu122110247 belongs to 1
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P4-5230 is now a room of UQAC
+P0-0900 is now a room of UQAC
 ---------- Add field ----------
 "Field" is now a field of UQAC
 ---------- Set university (field) ----------
@@ -180,12 +180,12 @@ P4-5230 is now a room of UQAC
 ---------- Remove field ----------
 "Field" doesn't exist in UQAC's field list.
 ---------- Permanent code (student) ----------
-Permanent code : Stu122110285 belongs to 1
+Permanent code : Stu122110278 belongs to 1
 ---------- Add sport ----------
 "Sport" is now a sport of UQAC
 ---------- Generate room (room) ----------
 ---------- Add room ----------
-P3-4200 is now a room of UQAC
+P1-2640 is now a room of UQAC
 ---------- Add sport ----------
 "Sport" is already a sport of UQAC
 ---------- Add sport ----------

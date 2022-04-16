@@ -6,6 +6,9 @@ plugins {
 
 apply plugin: 'org.checkerframework'
 
+sourceCompatibility = 1.11
+targetCompatibility = 1.11
+
 group 'org.example'
 version '1.0-SNAPSHOT'
 

@@ -2,6 +2,9 @@ package ca.uqac.inf334;
 
 import java.util.HashSet;
 
+/**
+ * Course's class
+ */
 public class Course {
     String name;
     University university;
@@ -12,7 +15,7 @@ public class Course {
 
     /**
      * Course's constructor
-     * @param name
+     * @param name course's name
      */
     public Course(String name){
         this.name = name;
@@ -26,7 +29,7 @@ public class Course {
      * Set a new university to the course.
      * The course can only have one university. If we set a university to a course which it already has one,
      * its attributes will be reset.
-     * @param newUniversity
+     * @param newUniversity course's new university
      */
     public void SetUniversity(University newUniversity){
         System.out.println("---------- Set university (course) ----------");
@@ -45,7 +48,7 @@ public class Course {
     /**
      * Remove the university of the course.
      * This action also delete the professor, the room, the students and the fields of the course.
-     * @param university
+     * @param university course's university
      */
     public void RemoveUniversity(University university){
         System.out.println("---------- Remove university (course) ----------");
@@ -71,7 +74,7 @@ public class Course {
      * Set a new professor to the course.
      * The course can only have one professor, their university must be the same.
      * If we set a professor to a course which it already has one, the old professor will be removed.
-     * @param newProfessor
+     * @param newProfessor course's new professor
      */
     public void SetProfessor(Professor newProfessor){
         System.out.println("---------- Set professor (course) ----------");
@@ -96,7 +99,7 @@ public class Course {
     /**
      * Remove the professor of the course.
      * This action also remove the course of the professor.
-     * @param professor
+     * @param professor coures's professor
      */
     public void RemoveProfessor(Professor professor){
         System.out.println("---------- Remove professor (course) ----------");
@@ -113,7 +116,7 @@ public class Course {
     /**
      * Set a room to the course.
      * The course's university and the new room must be in the same university.
-     * @param newRoom
+     * @param newRoom course's new room
      */
     public void SetRoom(Room newRoom){
         System.out.println("---------- Set room (course) ----------");
@@ -134,7 +137,7 @@ public class Course {
     /**
      * Remove the course's room.
      * This action also remove the course of the room.
-     * @param room
+     * @param room course's room
      */
     public void RemoveRoom(Room room){
         System.out.println("---------- Remove room (course) ----------");
@@ -152,7 +155,7 @@ public class Course {
      * Add a student to the course.
      * The course's university and the student's university must be the same.
      * This action also add the course to the student and add the student to the professor's student list.
-     * @param student
+     * @param student course's student
      */
     public void AddStudent(Student student){
         System.out.println("---------- Add student (course) ----------");
@@ -173,7 +176,7 @@ public class Course {
     /**
      * Remove a student from the course's student list.
      * This action also remove the course of the student and remove the student from the professor's student list.
-     * @param student
+     * @param student course's student
      */
     public void RemoveStudent(Student student){
         System.out.println("---------- Remove student (course) ----------");
@@ -192,7 +195,7 @@ public class Course {
      * Add a field to the course's field list.
      * The course's university and field's university must be the same.
      * This action also add the course to the field's course list.
-     * @param field
+     * @param field course's field
      */
     public void AddField(Field field){
         System.out.println("---------- Add field (course) ----------");
@@ -212,7 +215,7 @@ public class Course {
     /**
      * Remove a field from the course's field list.
      * This action also remove the course from the field's course list.
-     * @param field
+     * @param field course's field
      */
     public void RemoveField(Field field){
         System.out.println("---------- Remove field (course) ----------");
@@ -236,7 +239,7 @@ public class Course {
 
     /**
      * Convert course in JSON syntax
-     * @return str
+     * @return str course's json syntax
      */
     public String toJSON(){
         String str = "\n\t\t{" +

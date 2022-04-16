@@ -2,6 +2,9 @@ package ca.uqac.inf334;
 
 import java.util.*;
 
+/**
+ * Sport's class
+ */
 public class Sport {
     String name;
     University university;
@@ -9,8 +12,8 @@ public class Sport {
 
     /**
      * Sport's Constructor
-     * @param name
-     * @param university
+     * @param name Sport's name
+     * @param university Sport's Universitu
      */
     public Sport(String name, University university){
         this.name = name;
@@ -22,7 +25,7 @@ public class Sport {
     /**
      * Add student to the sport student's list.
      * This action also add sport to the student.
-     * @param student
+     * @param student Sport's student
      */
     public void AddStudent(Student student){
         System.out.println("---------- Add student (sport) ----------");
@@ -38,7 +41,7 @@ public class Sport {
     /**
      * Remove student to the sport student's list.
      * This action also remove sport to the student.
-     * @param student
+     * @param student sport's student
      */
     public void RemoveStudent(Student student){
         System.out.println("---------- Remove student (sport) ----------");
@@ -54,7 +57,7 @@ public class Sport {
 
     /**
      * Return sport toString
-     * @return this.name
+     * @return sport's nmae
      */
     public String toString(){
         return "\"" + this.name + "\"";
@@ -63,7 +66,7 @@ public class Sport {
 
     /**
      * Convert Sport to JSON syntax
-     * @return str
+     * @return string for sport's json syntax
      */
     public String toJSON(){
         String str = "\n\t\t{" +

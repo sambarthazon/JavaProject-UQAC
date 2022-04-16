@@ -2,6 +2,9 @@ package ca.uqac.inf334;
 
 import java.util.HashSet;
 
+/**
+ * Student's class
+ */
 public class Student {
     String lastName;
     String firstName;
@@ -14,9 +17,9 @@ public class Student {
 
     /**
      * Student's Constructor
-     * @param lastName
-     * @param firstName
-     * @param birthday
+     * @param lastName Student's last name
+     * @param firstName Student's firstname
+     * @param birthday Student's birthday
      */
     public Student(String lastName, String firstName, String birthday){
         this.lastName = lastName;
@@ -32,7 +35,7 @@ public class Student {
      * Set university to the student
      * This action also add the student to the university's student list. If we set a university to a student which it already has one,
      * its attributes will be reset.
-     * @param newUniversity
+     * @param newUniversity Student's university
      */
     public void SetUniversity(University newUniversity){
         System.out.println("---------- Set university (student) ----------");
@@ -51,7 +54,7 @@ public class Student {
     /**
      * Remove the university of the student
      * This action also remove the Student from the University's Student list and delete field and all his sports.
-     * @param university
+     * @param university Student's university
      */
     public void RemoveUniversity(University university){
         System.out.println("---------- Remove university (student) ----------");
@@ -71,7 +74,7 @@ public class Student {
 
     /**
      * Generate a permanent code
-     * @return permanentCode
+     * @return Student's permanentCode
      */
     public String PermanentCode() {
         System.out.println("---------- Permanent code (student) ----------");
@@ -92,7 +95,7 @@ public class Student {
     /**
      * Add a field to the student
      * This action also remove all his course.
-     * @param newField
+     * @param newField Student's Field
      */
     public void SetField(Field newField){
         System.out.println("---------- Set field (student) ----------");
@@ -111,7 +114,7 @@ public class Student {
     /**
      * Remove the student's field
      * This action also remove field from the student and all his course.
-     * @param field
+     * @param field Student's field
      */
     public void RemoveField(Field field){
         System.out.println("---------- Remove field (student) ----------");
@@ -131,7 +134,7 @@ public class Student {
     /**
      * Add a course to the student's courses list.
      * This action also verify if the field has the course and it add the student to course's student list.
-     * @param course
+     * @param course Student's course
      */
     public void AddCourse(Course course) {
         System.out.println("---------- Add course (student) ----------");
@@ -155,7 +158,7 @@ public class Student {
     /**
      * Remove a course from the student's courses list.
      * This action also remove Student of the course.
-     * @param course
+     * @param course Student's course
      */
     public void RemoveCourse(Course course){
         System.out.println("---------- Remove course (student) ----------");
@@ -172,7 +175,7 @@ public class Student {
     /**
      * Add a sport to the student.
      * This action also add student of the sport.
-     * @param sport
+     * @param sport Student's sport
      */
     public void AddSport(Sport sport){
         System.out.println("---------- Add sport (student) ----------");
@@ -188,7 +191,7 @@ public class Student {
     /**
      * Remove the student's sport.
      * This action also remove student of the sport.
-     * @param sport
+     * @param sport Student's sport
      */
     public void RemoveSport(Sport sport){
         System.out.println("---------- Remove sport (student) ----------");
@@ -204,7 +207,7 @@ public class Student {
 
     /**
      * Return Student toString
-     * @return this.firstName + this.lastName
+     * @return student's first name and Student's last name
      */
     public String toString(){
         return "\"" + this.firstName + " " + this.lastName + "\"";
@@ -213,7 +216,7 @@ public class Student {
 
     /**
      * Convert Student to JSON syntax
-     * @return str
+     * @return string for Student's json syntax
      */
     public String toJSON(){
         String str = "\n\t\t{" +
