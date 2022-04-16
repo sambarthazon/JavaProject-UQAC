@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - FieldTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>FieldTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ca.uqac.inf334.html">ca.uqac.inf334</a> &gt; FieldTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.037s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">TestCourse()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">TestStudent()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">TestToJSON()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">TestUniversity()</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>---------- Permanent code (student) ----------
+Permanent code : Stu122110237 belongs to 1
+---------- Set university (field) ----------
+---------- Add field ----------
+&quot;Field&quot; is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (course) ----------
+---------- Add course ----------
+&quot;Course&quot; is now a course of UQAC
+---------- Set university (course) ----------
+---------- Add field (course) ----------
+&quot;Field&quot; is now a field of this course.
+---------- Add course (field) ----------
+&quot;Course&quot; is now in this field.
+---------- Add field (course) ----------
+&quot;Field&quot; is already a field of this course.
+---------- Set university (student) ----------
+---------- Add student ----------
+&quot;1 Student&quot; is now a student of UQAC
+---------- Set university (student) ----------
+---------- Set field (student) ----------
+---------- Add student (field) ----------
+&quot;1 Student&quot; is now in this field.
+---------- Set field (student) ----------
+---------- Set university (field) ----------
+---------- Remove university (field) ----------
+&quot;Field&quot; field has no longer university.
+---------- Remove field ----------
+&quot;Field&quot; removed from UQAC's field list.
+---------- Remove university (field) ----------
+&quot;Field&quot; field isn't in the university.
+---------- Remove course (field) ----------
+&quot;Course&quot; removed from &quot;Field&quot;'s courses list.
+---------- Remove field (course) ----------
+&quot;Field&quot; removed from &quot;Course&quot;'s field list.
+---------- Remove course (field) ----------
+&quot;Course&quot; doesn't exist in &quot;Field&quot;'s courses list
+---------- Remove student (field) ----------
+&quot;1 Student&quot; removed from &quot;Field&quot;'s student list.
+---------- Remove field (student) ----------
+&quot;1 Student&quot; has no longer field.
+---------- Remove student (field) ----------
+&quot;1 Student&quot; doesn't exist in &quot;Field&quot;'s student list.
+---------- Add field ----------
+&quot;Field&quot; is now a field of CEGEP
+---------- Set university (field) ----------
+---------- Permanent code (student) ----------
+Permanent code : Stu122110273 belongs to 1
+---------- Set university (field) ----------
+---------- Add field ----------
+&quot;Field&quot; is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (course) ----------
+---------- Add course ----------
+&quot;Course&quot; is now a course of CEGEP
+---------- Set university (course) ----------
+---------- Add course (field) ----------
+Not in the same university.
+---------- Set university (course) ----------
+---------- Remove university (course) ----------
+---------- Remove course ----------
+&quot;Course&quot; removed from CEGEP's course list.
+---------- Remove university (course) ----------
+&quot;Course&quot; course isn't in the university.
+
+---------- Remove professor (course) ----------
+null doesn't teach this course.
+---------- Remove room (course) ----------
+null doesn't host this course.
+&quot;Course&quot; course has no longer university.
+
+---------- Add course ----------
+&quot;Course&quot; is now a course of UQAC
+---------- Set university (course) ----------
+---------- Add field (course) ----------
+&quot;Field&quot; is now a field of this course.
+---------- Add course (field) ----------
+&quot;Course&quot; is now in this field.
+---------- Add field (course) ----------
+&quot;Field&quot; is already a field of this course.
+---------- Add course (field) ----------
+&quot;Course&quot; already exist in this field.
+---------- Remove course (field) ----------
+&quot;Course&quot; removed from &quot;Field&quot;'s courses list.
+---------- Remove field (course) ----------
+&quot;Field&quot; removed from &quot;Course&quot;'s field list.
+---------- Remove course (field) ----------
+&quot;Course&quot; doesn't exist in &quot;Field&quot;'s courses list
+---------- Permanent code (student) ----------
+Permanent code : Stu122110200 belongs to 1
+---------- Set university (field) ----------
+---------- Add field ----------
+&quot;Field&quot; is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (student) ----------
+---------- Add student ----------
+&quot;1 Student&quot; is now a student of CEGEP
+---------- Set university (student) ----------
+---------- Add student (field) ----------
+---------- Set university (student) ----------
+---------- Remove university (student) ----------
+&quot;1 Student&quot; has no longer university.
+
+---------- Remove student ----------
+&quot;1 Student&quot; removed from CEGEP's student list.
+---------- Remove university (student) ----------
+&quot;1 Student&quot; isn't in this university.
+
+---------- Remove field (student) ----------
+&quot;1 Student&quot; isn't in this field.
+---------- Add student ----------
+&quot;1 Student&quot; is now a student of UQAC
+---------- Set university (student) ----------
+---------- Add student (field) ----------
+&quot;1 Student&quot; is now in this field.
+---------- Set field (student) ----------
+---------- Add student (field) ----------
+&quot;1 Student&quot; is already in this field.
+---------- Remove student (field) ----------
+&quot;1 Student&quot; removed from &quot;Field&quot;'s student list.
+---------- Remove field (student) ----------
+&quot;1 Student&quot; has no longer field.
+---------- Remove student (field) ----------
+&quot;1 Student&quot; doesn't exist in &quot;Field&quot;'s student list.
+---------- Permanent code (student) ----------
+Permanent code : Stu122110261 belongs to 1
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4.2</a> at 16 avr. 2022, 17:57:02</p>
+</div>
+</div>
+</body>
+</html>

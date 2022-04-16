@@ -1,0 +1,17 @@
+-classpath '/Users/sambarthazon/Desktop/Git/JavaProject/build/classes/java/main:/Users/sambarthazon/Desktop/Git/JavaProject/build/resources/main:/Users/sambarthazon/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.21.3/478dca5bca5ca1c9630f0b245786fbbc39405275/checker-qual-3.21.3.jar'
+-d '/Users/sambarthazon/Desktop/Git/JavaProject/build/docs/javadoc'
+-doctitle 'JavaProject-UQAC 1.0-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'JavaProject-UQAC 1.0-SNAPSHOT API'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/Room.java'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/University.java'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/Admin.java'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/Professor.java'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/Secretary.java'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/Sport.java'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/Course.java'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/Main.java'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/Staff.java'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/Field.java'
+'/Users/sambarthazon/Desktop/Git/JavaProject/src/main/java/ca/uqac/inf334/Student.java'

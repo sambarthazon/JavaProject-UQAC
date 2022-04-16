@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uqac.inf334.CourseTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.064">
+  <properties/>
+  <testcase name="TestUniversity()" classname="ca.uqac.inf334.CourseTest" time="0.028"/>
+  <testcase name="TestRoom()" classname="ca.uqac.inf334.CourseTest" time="0.002"/>
+  <testcase name="TestStudent()" classname="ca.uqac.inf334.CourseTest" time="0.006"/>
+  <testcase name="TestToJSON()" classname="ca.uqac.inf334.CourseTest" time="0.002"/>
+  <testcase name="TestProfessor()" classname="ca.uqac.inf334.CourseTest" time="0.008"/>
+  <testcase name="TestField()" classname="ca.uqac.inf334.CourseTest" time="0.004"/>
+  <system-out><![CDATA[---------- Permanent code (student) ----------
+Permanent code : Stu122110284 belongs to 1
+---------- Generate room (room) ----------
+---------- Add room ----------
+P3-1330 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P4-3420 is now a room of UQAC
+---------- Set university (professor) ----------
+Set university to : "Professor 1"
+---------- Add professor ----------
+"Professor 1" is now a professor of UQAC
+---------- Set university (professor) ----------
+"Professor 1" is already in this university.
+---------- Set university (field) ----------
+---------- Add field ----------
+"Field" is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (course) ----------
+---------- Add course ----------
+"Course" is now a course of UQAC
+---------- Set university (course) ----------
+---------- Set university (student) ----------
+---------- Add student ----------
+"1 Student" is now a student of UQAC
+---------- Set university (student) ----------
+---------- Set field (student) ----------
+---------- Add student (field) ----------
+"1 Student" is now in this field.
+---------- Set field (student) ----------
+---------- Set professor (course) ----------
+---------- Set course (professor) ----------
+---------- Set professor (course) ----------
+"Professor 1" is already the professor.
+---------- Add field (course) ----------
+"Field" is now a field of this course.
+---------- Add course (field) ----------
+"Course" is now in this field.
+---------- Add field (course) ----------
+"Field" is already a field of this course.
+---------- Add student (course) ----------
+"1 Student" is now in this course.
+---------- Add course (student) ----------
+"Course" is now a course of "1 Student"
+---------- Add student (course) ----------
+"1 Student" is already in this course.
+---------- Add student (professor) ----------
+"1 Student" already in "Professor 1"'s student list.
+---------- Set room (course) ----------
+---------- Set course (room) ----------
+---------- Set room (course) ----------
+The course already take place in this room.
+---------- Set university (course) ----------
+---------- Remove university (course) ----------
+---------- Remove course ----------
+"Course" removed from UQAC's course list.
+---------- Remove university (course) ----------
+"Course" course isn't in the university.
+
+---------- Remove student (course) ----------
+"1 Student" removed from "Course"'s student list.
+---------- Remove course (student) ----------
+"Course" removed from "1 Student"'s course list.
+---------- Remove student (course) ----------
+"1 Student" doesn't exist in "Course"'s student list.
+---------- Remove student (professor) ----------
+"1 Student" isn't in "Professor 1"'s student list.
+---------- Remove professor (course) ----------
+"Professor 1" no longer teach this course.
+---------- Remove course (professor) ----------
+---------- Remove professor (course) ----------
+"Professor 1" doesn't teach this course.
+"Professor 1" professor has no longer course.
+---------- Remove room (course) ----------
+P3-1330 no longer host the course.
+---------- Remove course (room) ----------
+"Course" no longer take place in this room.
+---------- Remove room (course) ----------
+P3-1330 doesn't host this course.
+---------- Remove field (course) ----------
+"Field" removed from "Course"'s field list.
+---------- Remove course (field) ----------
+"Course" removed from "Field"'s courses list.
+---------- Remove field (course) ----------
+"Field" doesn't exist in "Course"'s field list.
+"Course" course has no longer university.
+
+---------- Add course ----------
+"Course" is now a course of CEGEP
+---------- Set university (course) ----------
+---------- Permanent code (student) ----------
+Permanent code : Stu122110277 belongs to 1
+---------- Generate room (room) ----------
+---------- Add room ----------
+P4-2990 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P4-5520 is now a room of UQAC
+---------- Set room (course) ----------
+---------- Set course (room) ----------
+---------- Set room (course) ----------
+The course already take place in this room.
+---------- Set room (course) ----------
+---------- Remove room (course) ----------
+P4-2990 no longer host the course.
+---------- Remove course (room) ----------
+"Course" no longer take place in this room.
+---------- Remove room (course) ----------
+P4-2990 doesn't host this course.
+---------- Set course (room) ----------
+---------- Set room (course) ----------
+The course already take place in this room.
+---------- Permanent code (student) ----------
+Permanent code : Stu122110281 belongs to 1
+---------- Generate room (room) ----------
+---------- Add room ----------
+P0-2970 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P4-4590 is now a room of UQAC
+---------- Set university (professor) ----------
+Set university to : "Professor 1"
+---------- Add professor ----------
+"Professor 1" is now a professor of UQAC
+---------- Set university (professor) ----------
+"Professor 1" is already in this university.
+---------- Set university (course) ----------
+---------- Add course ----------
+"Course" is now a course of UQAC
+---------- Set university (course) ----------
+---------- Set professor (course) ----------
+---------- Set course (professor) ----------
+---------- Set professor (course) ----------
+"Professor 1" is already the professor.
+---------- Set university (field) ----------
+---------- Add field ----------
+"Field" is now a field of UQAC
+---------- Set university (field) ----------
+---------- Add field (course) ----------
+"Field" is now a field of this course.
+---------- Add course (field) ----------
+"Course" is now in this field.
+---------- Add field (course) ----------
+"Field" is already a field of this course.
+---------- Add student (course) ----------
+Not in the same university.
+---------- Set university (student) ----------
+---------- Add student ----------
+"1 Student" is now a student of UQAC
+---------- Set university (student) ----------
+---------- Set field (student) ----------
+---------- Add student (field) ----------
+"1 Student" is now in this field.
+---------- Set field (student) ----------
+---------- Add student (course) ----------
+"1 Student" is now in this course.
+---------- Add course (student) ----------
+"Course" is now a course of "1 Student"
+---------- Add student (course) ----------
+"1 Student" is already in this course.
+---------- Add student (professor) ----------
+"1 Student" already in "Professor 1"'s student list.
+---------- Add student (course) ----------
+"1 Student" is already in this course.
+---------- Remove student (course) ----------
+"1 Student" removed from "Course"'s student list.
+---------- Remove course (student) ----------
+"Course" removed from "1 Student"'s course list.
+---------- Remove student (course) ----------
+"1 Student" doesn't exist in "Course"'s student list.
+---------- Remove student (professor) ----------
+"1 Student" isn't in "Professor 1"'s student list.
+---------- Remove student (course) ----------
+"1 Student" doesn't exist in "Course"'s student list.
+---------- Permanent code (student) ----------
+Permanent code : Stu122110265 belongs to 1
+---------- Generate room (room) ----------
+---------- Add room ----------
+P4-2520 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P5-1910 is now a room of UQAC
+---------- Permanent code (student) ----------
+Permanent code : Stu122110262 belongs to 1
+---------- Generate room (room) ----------
+---------- Add room ----------
+P3-0200 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P4-2260 is now a room of UQAC
+---------- Set university (professor) ----------
+Set university to : "Professor 1"
+---------- Add professor ----------
+"Professor 1" is now a professor of UQAC
+---------- Set university (professor) ----------
+"Professor 1" is already in this university.
+---------- Set university (field) ----------
+---------- Add field ----------
+"Field" is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (course) ----------
+---------- Add course ----------
+"Course" is now a course of CEGEP
+---------- Set university (course) ----------
+---------- Set professor (course) ----------
+"Professor 1" isn't in the same university.
+---------- Set university (course) ----------
+---------- Remove university (course) ----------
+---------- Remove course ----------
+"Course" removed from CEGEP's course list.
+---------- Remove university (course) ----------
+"Course" course isn't in the university.
+
+---------- Remove professor (course) ----------
+null doesn't teach this course.
+---------- Remove room (course) ----------
+null doesn't host this course.
+"Course" course has no longer university.
+
+---------- Add course ----------
+"Course" is now a course of UQAC
+---------- Set university (course) ----------
+---------- Set professor (course) ----------
+---------- Set course (professor) ----------
+---------- Set professor (course) ----------
+"Professor 1" is already the professor.
+---------- Set university (student) ----------
+---------- Add student ----------
+"1 Student" is now a student of UQAC
+---------- Set university (student) ----------
+---------- Set field (student) ----------
+---------- Add student (field) ----------
+"1 Student" is now in this field.
+---------- Set field (student) ----------
+---------- Add student (course) ----------
+"1 Student" is now in this course.
+---------- Add course (student) ----------
+"Course" isn't available in the field of "1 Student"
+---------- Add student (professor) ----------
+"1 Student" already in "Professor 1"'s student list.
+---------- Set university (professor) ----------
+Set university to : "Professor 2"
+---------- Add professor ----------
+"Professor 2" is now a professor of UQAC
+---------- Set university (professor) ----------
+"Professor 2" is already in this university.
+---------- Set professor (course) ----------
+---------- Remove professor (course) ----------
+"Professor 1" no longer teach this course.
+---------- Remove course (professor) ----------
+---------- Remove professor (course) ----------
+"Professor 1" doesn't teach this course.
+---------- Remove student (professor) ----------
+"1 Student" removed from "Professor 1"'s student list.
+"Professor 1" professor has no longer course.
+---------- Set course (professor) ----------
+---------- Set professor (course) ----------
+"Professor 2" is already the professor.
+---------- Permanent code (student) ----------
+Permanent code : Stu122110228 belongs to 1
+---------- Generate room (room) ----------
+---------- Add room ----------
+P3-3560 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P4-3140 is now a room of UQAC
+---------- Set university (course) ----------
+---------- Add course ----------
+"Course" is now a course of UQAC
+---------- Set university (course) ----------
+---------- Add field (course) ----------
+Not in the same university.
+---------- Set university (field) ----------
+---------- Add field ----------
+"Field" is now a field of UQAC
+---------- Set university (field) ----------
+---------- Add field (course) ----------
+"Field" is now a field of this course.
+---------- Add course (field) ----------
+"Course" is now in this field.
+---------- Add field (course) ----------
+"Field" is already a field of this course.
+---------- Remove field (course) ----------
+"Field" removed from "Course"'s field list.
+---------- Remove course (field) ----------
+"Course" removed from "Field"'s courses list.
+---------- Remove field (course) ----------
+"Field" doesn't exist in "Course"'s field list.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

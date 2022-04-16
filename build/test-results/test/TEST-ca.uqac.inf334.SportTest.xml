@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uqac.inf334.SportTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.007">
+  <properties/>
+  <testcase name="TestStudent()" classname="ca.uqac.inf334.SportTest" time="0.003"/>
+  <testcase name="TestToJSON()" classname="ca.uqac.inf334.SportTest" time="0.002"/>
+  <system-out><![CDATA[---------- Permanent code (student) ----------
+Permanent code : Stu122110278 belongs to 1
+---------- Add sport ----------
+"sport" is now a sport of UQAC
+---------- Add student (sport) ----------
+"1 Student" is now in this sport.
+---------- Add sport (student) ----------
+"sport" is now a sport of "1 Student"
+---------- Add student (sport) ----------
+"1 Student" doesn't practice this sport.
+---------- Remove student (sport) ----------
+"1 Student" removed from this sport.
+---------- Remove sport (student) ----------
+---------- Remove student (sport) ----------
+"1 Student" doesn't practice this sport.
+"sport" removed from "1 Student"'s sport list.
+---------- Permanent code (student) ----------
+Permanent code : Stu122110288 belongs to 1
+---------- Add sport ----------
+"sport" is now a sport of UQAC
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uqac.inf334.FieldTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.043">
+  <properties/>
+  <testcase name="TestUniversity()" classname="ca.uqac.inf334.FieldTest" time="0.012"/>
+  <testcase name="TestCourse()" classname="ca.uqac.inf334.FieldTest" time="0.014"/>
+  <testcase name="TestStudent()" classname="ca.uqac.inf334.FieldTest" time="0.009"/>
+  <testcase name="TestToJSON()" classname="ca.uqac.inf334.FieldTest" time="0.002"/>
+  <system-out><![CDATA[---------- Permanent code (student) ----------
+Permanent code : Stu122110237 belongs to 1
+---------- Set university (field) ----------
+---------- Add field ----------
+"Field" is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (course) ----------
+---------- Add course ----------
+"Course" is now a course of UQAC
+---------- Set university (course) ----------
+---------- Add field (course) ----------
+"Field" is now a field of this course.
+---------- Add course (field) ----------
+"Course" is now in this field.
+---------- Add field (course) ----------
+"Field" is already a field of this course.
+---------- Set university (student) ----------
+---------- Add student ----------
+"1 Student" is now a student of UQAC
+---------- Set university (student) ----------
+---------- Set field (student) ----------
+---------- Add student (field) ----------
+"1 Student" is now in this field.
+---------- Set field (student) ----------
+---------- Set university (field) ----------
+---------- Remove university (field) ----------
+"Field" field has no longer university.
+---------- Remove field ----------
+"Field" removed from UQAC's field list.
+---------- Remove university (field) ----------
+"Field" field isn't in the university.
+---------- Remove course (field) ----------
+"Course" removed from "Field"'s courses list.
+---------- Remove field (course) ----------
+"Field" removed from "Course"'s field list.
+---------- Remove course (field) ----------
+"Course" doesn't exist in "Field"'s courses list
+---------- Remove student (field) ----------
+"1 Student" removed from "Field"'s student list.
+---------- Remove field (student) ----------
+"1 Student" has no longer field.
+---------- Remove student (field) ----------
+"1 Student" doesn't exist in "Field"'s student list.
+---------- Add field ----------
+"Field" is now a field of CEGEP
+---------- Set university (field) ----------
+---------- Permanent code (student) ----------
+Permanent code : Stu122110273 belongs to 1
+---------- Set university (field) ----------
+---------- Add field ----------
+"Field" is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (course) ----------
+---------- Add course ----------
+"Course" is now a course of CEGEP
+---------- Set university (course) ----------
+---------- Add course (field) ----------
+Not in the same university.
+---------- Set university (course) ----------
+---------- Remove university (course) ----------
+---------- Remove course ----------
+"Course" removed from CEGEP's course list.
+---------- Remove university (course) ----------
+"Course" course isn't in the university.
+
+---------- Remove professor (course) ----------
+null doesn't teach this course.
+---------- Remove room (course) ----------
+null doesn't host this course.
+"Course" course has no longer university.
+
+---------- Add course ----------
+"Course" is now a course of UQAC
+---------- Set university (course) ----------
+---------- Add field (course) ----------
+"Field" is now a field of this course.
+---------- Add course (field) ----------
+"Course" is now in this field.
+---------- Add field (course) ----------
+"Field" is already a field of this course.
+---------- Add course (field) ----------
+"Course" already exist in this field.
+---------- Remove course (field) ----------
+"Course" removed from "Field"'s courses list.
+---------- Remove field (course) ----------
+"Field" removed from "Course"'s field list.
+---------- Remove course (field) ----------
+"Course" doesn't exist in "Field"'s courses list
+---------- Permanent code (student) ----------
+Permanent code : Stu122110200 belongs to 1
+---------- Set university (field) ----------
+---------- Add field ----------
+"Field" is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (student) ----------
+---------- Add student ----------
+"1 Student" is now a student of CEGEP
+---------- Set university (student) ----------
+---------- Add student (field) ----------
+---------- Set university (student) ----------
+---------- Remove university (student) ----------
+"1 Student" has no longer university.
+
+---------- Remove student ----------
+"1 Student" removed from CEGEP's student list.
+---------- Remove university (student) ----------
+"1 Student" isn't in this university.
+
+---------- Remove field (student) ----------
+"1 Student" isn't in this field.
+---------- Add student ----------
+"1 Student" is now a student of UQAC
+---------- Set university (student) ----------
+---------- Add student (field) ----------
+"1 Student" is now in this field.
+---------- Set field (student) ----------
+---------- Add student (field) ----------
+"1 Student" is already in this field.
+---------- Remove student (field) ----------
+"1 Student" removed from "Field"'s student list.
+---------- Remove field (student) ----------
+"1 Student" has no longer field.
+---------- Remove student (field) ----------
+"1 Student" doesn't exist in "Field"'s student list.
+---------- Permanent code (student) ----------
+Permanent code : Stu122110261 belongs to 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

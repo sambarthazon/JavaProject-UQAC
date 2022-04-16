@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uqac.inf334.RoomTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:57:02" hostname="Air-de-Sam" time="0.007">
+  <properties/>
+  <testcase name="TestCourse()" classname="ca.uqac.inf334.RoomTest" time="0.002"/>
+  <testcase name="TestToJSON()" classname="ca.uqac.inf334.RoomTest" time="0.001"/>
+  <testcase name="TestGenerateRoom()" classname="ca.uqac.inf334.RoomTest" time="0.001"/>
+  <system-out><![CDATA[---------- Generate room (room) ----------
+---------- Add room ----------
+P5-4530 is now a room of UQAC
+---------- Set course (room) ----------
+---------- Set room (course) ----------
+---------- Set course (room) ----------
+---------- Set course (room) ----------
+---------- Remove course (room) ----------
+"Course1" no longer take place in this room.
+---------- Remove room (course) ----------
+P5-4530 no longer host the course.
+---------- Remove course (room) ----------
+"Course1" doesn't take place in this room.
+---------- Set room (course) ----------
+---------- Set course (room) ----------
+---------- Generate room (room) ----------
+---------- Add room ----------
+P3-1320 is now a room of UQAC
+---------- Generate room (room) ----------
+---------- Add room ----------
+P4-2940 is now a room of UQAC
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
