@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uqac.inf334.AdminTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-16T22:34:21" hostname="Air-de-Sam" time="0.082">
+  <properties/>
+  <testcase name="TestUniversity()" classname="ca.uqac.inf334.AdminTest" time="0.07"/>
+  <testcase name="TestToJSON()" classname="ca.uqac.inf334.AdminTest" time="0.009"/>
+  <system-out><![CDATA[---------- Set university (admin) ----------
+Set university to : "1 Admin"
+---------- Add admin ----------
+"1 Admin" is now an admin of UQAC
+---------- Set university (admin) ----------
+---------- Set university (admin) ----------
+---------- Remove university (admin) ----------
+"1 Admin" admin has no longer university.
+
+---------- Remove admin ----------
+"1 Admin" removed from UQAC's admin list.
+---------- Remove university (admin) ----------
+"1 Admin" admin isn't in the university.
+
+Set university to : "1 Admin"
+---------- Add admin ----------
+"1 Admin" is now an admin of CEGEP
+---------- Set university (admin) ----------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

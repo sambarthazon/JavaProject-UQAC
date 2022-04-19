@@ -2,14 +2,18 @@ package ca.uqac.inf334;
 
 import java.util.HashSet;
 
+
+/**
+ * Professor's class
+ */
 public class Professor extends Staff {
     Course course;
     HashSet<Student> studentList = new HashSet<>();
 
     /**
      * Professor's constructor
-     * @param firstName
-     * @param lastName
+     * @param firstName professor's first name
+     * @param lastName professor's last name
      */
     public Professor(String firstName, String lastName){
         super(firstName, lastName, "Professor");
@@ -21,7 +25,7 @@ public class Professor extends Staff {
      * Set the university to the professor.
      * This action also add the professor to the professor's admin list. If we set a university to an professor which it already has one,
      * its attributes will be reset.
-     * @param newUniversity
+     * @param newUniversity professor's new university
      */
     public void SetUniversity(University newUniversity){
         System.out.println("---------- Set university (professor) ----------");
@@ -44,7 +48,7 @@ public class Professor extends Staff {
      * Remove the university of the professor.
      * This action also remove all the students from the student list, the course,
      * and the professor from the university's professor list.
-     * @param university
+     * @param university professor's university
      */
     public void RemoveUniversity(University university){
         System.out.println("---------- Remove university (professor) ----------");
@@ -67,7 +71,7 @@ public class Professor extends Staff {
      * The professor's university and the new course's university must be the same.
      * This action also remove all the students from the student list of the old course
      * and add the students to the student list of the new course.
-     * @param newCourse
+     * @param newCourse professor's new course
      */
     public void SetCourse(Course newCourse){
         System.out.println("---------- Set course (professor) ----------");
@@ -97,7 +101,7 @@ public class Professor extends Staff {
     /**
      * Remove the course of the professor.
      * This action also remove all students from the student list.
-     * @param course
+     * @param course professor's course
      */
     public void RemoveCourse(Course course){
         System.out.println("---------- Remove course (professor) ----------");
@@ -117,7 +121,7 @@ public class Professor extends Staff {
     /**
      * Add the student to the professor's student list.
      * This action also add the course to the student.
-     * @param student
+     * @param student professor's student
      */
     public void AddStudent(Student student) {
         System.out.println("---------- Add student (professor) ----------");
@@ -140,7 +144,7 @@ public class Professor extends Staff {
 
     /**
      * Remove the student from the professor's student list.
-     * @param student
+     * @param student professor's student
      */
     public void RemoveStudent(Student student){
         System.out.println("---------- Remove student (professor) ----------");
@@ -155,7 +159,7 @@ public class Professor extends Staff {
 
     /**
      * Convert professor to JSON syntax
-     * @return str
+     * @return str professor's json syntax
      */
     public String toJSON(){
         String str = "\n\t\t\t{" +

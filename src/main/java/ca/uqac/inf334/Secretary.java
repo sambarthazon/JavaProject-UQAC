@@ -1,11 +1,14 @@
 package ca.uqac.inf334;
 
+/**
+ * Secretary's class
+ */
 public class Secretary extends Staff{
 
     /**
      * Secretaty's Constructor
-     * @param lastName
-     * @param firstName
+     * @param lastName Secretary's last name
+     * @param firstName Secretary's first name
      */
     public Secretary(String lastName, String firstName) {
         super(lastName, firstName, "Secretary");
@@ -15,7 +18,7 @@ public class Secretary extends Staff{
     /**
      * Set university to the secretary
      * This action also remove the secretary from the University's secretary list.
-     * @param newUniversity
+     * @param newUniversity Secretary's University
      */
     @Override
     public void SetUniversity(University newUniversity) {
@@ -36,7 +39,7 @@ public class Secretary extends Staff{
     /**
      * Remove the university of the secretary
      * Ths action also remove the Secretary from the University.
-     * @param university
+     * @param university Secretary's University
      */
     @Override
     public void RemoveUniversity(University university) {
@@ -53,7 +56,7 @@ public class Secretary extends Staff{
 
     /**
      * Convert Secretaty to JSON syntax
-     * @return str
+     * @return string for secretary's json syntax
      */
     public String toJSON(){
         String str = "\n\t\t{\n" +

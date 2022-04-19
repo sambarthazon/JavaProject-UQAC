@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uqac.inf334.StudentTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-04-16T22:34:21" hostname="Air-de-Sam" time="0.023">
+  <properties/>
+  <testcase name="TestPermanentCode()" classname="ca.uqac.inf334.StudentTest" time="0.001"/>
+  <testcase name="TestUniversity()" classname="ca.uqac.inf334.StudentTest" time="0.002"/>
+  <testcase name="TestRemoveCourse()" classname="ca.uqac.inf334.StudentTest" time="0.001"/>
+  <testcase name="TestToString()" classname="ca.uqac.inf334.StudentTest" time="0.001"/>
+  <testcase name="TestToJSON()" classname="ca.uqac.inf334.StudentTest" time="0.001"/>
+  <testcase name="TestField()" classname="ca.uqac.inf334.StudentTest" time="0.004"/>
+  <testcase name="TestSport()" classname="ca.uqac.inf334.StudentTest" time="0.002"/>
+  <testcase name="TestAddCourse()" classname="ca.uqac.inf334.StudentTest" time="0.002"/>
+  <system-out><![CDATA[---------- Permanent code (student) ----------
+Permanent code : BARS22110296 belongs to Sam
+---------- Add sport ----------
+"Sport" is now a sport of UQAC
+---------- Permanent code (student) ----------
+Permanent code : BARS22110283 belongs to Sam
+---------- Add sport ----------
+"Sport" is now a sport of UQAC
+---------- Set university (student) ----------
+---------- Add student ----------
+"Sam BARTHAZON" is now a student of UQAC
+---------- Set university (student) ----------
+---------- Add sport (student) ----------
+"Sport" is now a sport of "Sam BARTHAZON"
+---------- Add student (sport) ----------
+"Sam BARTHAZON" is now in this sport.
+---------- Add sport (student) ----------
+"Sport" is already a sport of "Sam BARTHAZON"
+---------- Set university (student) ----------
+---------- Remove university (student) ----------
+"Sam BARTHAZON" has no longer university.
+
+---------- Remove student ----------
+"Sam BARTHAZON" removed from UQAC's student list.
+---------- Remove university (student) ----------
+"Sam BARTHAZON" isn't in this university.
+
+---------- Remove field (student) ----------
+"Sam BARTHAZON" isn't in this field.
+---------- Remove sport (student) ----------
+---------- Remove student (sport) ----------
+"Sam BARTHAZON" removed from this sport.
+---------- Remove sport (student) ----------
+"Sport" doesn't exist in "Sam BARTHAZON"'s sport list.
+"Sport" removed from "Sam BARTHAZON"'s sport list.
+---------- Add student ----------
+"Sam BARTHAZON" is now a student of CEGEP
+---------- Set university (student) ----------
+---------- Permanent code (student) ----------
+Permanent code : BARS22110285 belongs to Sam
+---------- Add sport ----------
+"Sport" is now a sport of UQAC
+---------- Permanent code (student) ----------
+Permanent code : BARS22110200 belongs to Sam
+---------- Add sport ----------
+"Sport" is now a sport of UQAC
+---------- Permanent code (student) ----------
+Permanent code : BARS22110251 belongs to Sam
+---------- Add sport ----------
+"Sport" is now a sport of UQAC
+---------- Permanent code (student) ----------
+Permanent code : BARS22110243 belongs to Sam
+---------- Add sport ----------
+"Sport" is now a sport of UQAC
+---------- Set university (professor) ----------
+Set university to : "Prof 1"
+---------- Add professor ----------
+"Prof 1" is now a professor of UQAC
+---------- Set university (professor) ----------
+"Prof 1" is already in this university.
+---------- Set university (field) ----------
+---------- Add field ----------
+"Field1" is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (field) ----------
+---------- Add field ----------
+"Field2" is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (course) ----------
+---------- Add course ----------
+"Course1" is now a course of UQAC
+---------- Set university (course) ----------
+---------- Set course (professor) ----------
+---------- Set professor (course) ----------
+---------- Set course (professor) ----------
+Professor "Prof 1" already have "Course1" course.
+---------- Add field (course) ----------
+"Field1" is now a field of this course.
+---------- Add course (field) ----------
+"Course1" is now in this field.
+---------- Add field (course) ----------
+"Field1" is already a field of this course.
+---------- Set university (student) ----------
+---------- Add student ----------
+"Sam BARTHAZON" is now a student of UQAC
+---------- Set university (student) ----------
+---------- Set field (student) ----------
+---------- Add student (field) ----------
+"Sam BARTHAZON" is now in this field.
+---------- Set field (student) ----------
+---------- Add course (student) ----------
+"Course1" is now a course of "Sam BARTHAZON"
+---------- Add student (course) ----------
+"Sam BARTHAZON" is now in this course.
+---------- Add course (student) ----------
+"Course1" is already a course of "Sam BARTHAZON"
+---------- Add student (professor) ----------
+"Sam BARTHAZON" already in "Prof 1"'s student list.
+---------- Set field (student) ----------
+---------- Remove field (student) ----------
+"Sam BARTHAZON" has no longer field.
+---------- Remove course (student) ----------
+"Course1" removed from "Sam BARTHAZON"'s course list.
+---------- Remove student (course) ----------
+"Sam BARTHAZON" removed from "Course1"'s student list.
+---------- Remove course (student) ----------
+"Course1" doesn't exist in "Sam BARTHAZON"'s course list.
+---------- Remove student (professor) ----------
+"Sam BARTHAZON" isn't in "Prof 1"'s student list.
+---------- Remove student (field) ----------
+"Sam BARTHAZON" removed from "Field1"'s student list.
+---------- Remove field (student) ----------
+"Sam BARTHAZON" isn't in this field.
+---------- Add student (field) ----------
+"Sam BARTHAZON" is now in this field.
+---------- Set field (student) ----------
+---------- Permanent code (student) ----------
+Permanent code : BARS22110285 belongs to Sam
+---------- Add sport ----------
+"Sport" is now a sport of UQAC
+---------- Add sport (student) ----------
+"Sport" is now a sport of "Sam BARTHAZON"
+---------- Add student (sport) ----------
+"Sam BARTHAZON" is now in this sport.
+---------- Add sport (student) ----------
+"Sport" is already a sport of "Sam BARTHAZON"
+---------- Remove sport (student) ----------
+---------- Remove student (sport) ----------
+"Sam BARTHAZON" removed from this sport.
+---------- Remove sport (student) ----------
+"Sport" doesn't exist in "Sam BARTHAZON"'s sport list.
+"Sport" removed from "Sam BARTHAZON"'s sport list.
+---------- Permanent code (student) ----------
+Permanent code : BARS22110261 belongs to Sam
+---------- Add sport ----------
+"Sport" is now a sport of UQAC
+---------- Set university (professor) ----------
+Set university to : "Prof 1"
+---------- Add professor ----------
+"Prof 1" is now a professor of UQAC
+---------- Set university (professor) ----------
+"Prof 1" is already in this university.
+---------- Set university (field) ----------
+---------- Add field ----------
+"Field1" is now a field of UQAC
+---------- Set university (field) ----------
+---------- Set university (course) ----------
+---------- Add course ----------
+"Course1" is now a course of UQAC
+---------- Set university (course) ----------
+---------- Set professor (course) ----------
+---------- Set course (professor) ----------
+---------- Set professor (course) ----------
+"Prof 1" is already the professor.
+---------- Add field (course) ----------
+"Field1" is now a field of this course.
+---------- Add course (field) ----------
+"Course1" is now in this field.
+---------- Add field (course) ----------
+"Field1" is already a field of this course.
+---------- Set university (course) ----------
+---------- Add course ----------
+"Course2" is now a course of UQAC
+---------- Set university (course) ----------
+---------- Add field (course) ----------
+Not in the same university.
+---------- Set university (student) ----------
+---------- Add student ----------
+"Sam BARTHAZON" is now a student of UQAC
+---------- Set university (student) ----------
+---------- Add course (student) ----------
+"Sam BARTHAZON" student need a field to add a course.
+
+---------- Set field (student) ----------
+---------- Add student (field) ----------
+"Sam BARTHAZON" is now in this field.
+---------- Set field (student) ----------
+---------- Add course (student) ----------
+"Course2" isn't available in the field of "Sam BARTHAZON"
+---------- Add course (student) ----------
+"Course1" is now a course of "Sam BARTHAZON"
+---------- Add student (course) ----------
+"Sam BARTHAZON" is now in this course.
+---------- Add course (student) ----------
+"Course1" is already a course of "Sam BARTHAZON"
+---------- Add student (professor) ----------
+"Sam BARTHAZON" already in "Prof 1"'s student list.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,9 +1,13 @@
 plugins {
     id 'java'
     id 'org.checkerframework' version '0.6.9'
+    id 'jacoco'
 }
 
 apply plugin: 'org.checkerframework'
+
+sourceCompatibility = 1.11
+targetCompatibility = 1.11
 
 group 'org.example'
 version '1.0-SNAPSHOT'

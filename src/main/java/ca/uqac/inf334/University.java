@@ -3,6 +3,9 @@ package ca.uqac.inf334;
 import java.util.HashSet;
 import java.util.Iterator;
 
+/**
+ * University's class
+ */
 public class University {
     String name;
     HashSet<Staff> adminList = new HashSet<>();
@@ -17,7 +20,7 @@ public class University {
 
     /**
      * University's Constructor
-     * @param name
+     * @param name University's name
      */
     public University(String name) {
         this.name = name;
@@ -27,7 +30,7 @@ public class University {
     /**
      * Add an admin to the university's admin list.
      * This action also set an University to the admin.
-     * @param admin
+     * @param admin University's admin
      */
     public void AddAdmin(Admin admin){
         System.out.println("---------- Add admin ----------");
@@ -43,7 +46,7 @@ public class University {
     /**
      * Remove an admin from the university's admin list.
      * This action also remove the University of the admin.
-     * @param admin
+     * @param admin University's admin
      */
     public void RemoveAdmin(Admin admin){
         System.out.println("---------- Remove admin ----------");
@@ -60,7 +63,7 @@ public class University {
     /**
      * Add a secretary to the university's secretary list.
      * This action also add the University of the secretary.
-     * @param secretary
+     * @param secretary University's secretary
      */
     public void AddSecretary(Secretary secretary){
         System.out.println("---------- Add secretary ----------");
@@ -76,7 +79,7 @@ public class University {
     /**
      * Remove a secretary from the university's secretary list.
      * This action also remove the University of the secretary.
-     * @param secretary
+     * @param secretary University's secretary
      */
     public void RemoveSecretary(Secretary secretary){
         System.out.println("---------- Remove secretary ----------");
@@ -93,7 +96,7 @@ public class University {
     /**
      * Add a professor to the university's professor list.
      * This action also add the University of the professor.
-     * @param professor
+     * @param professor University's professor
      */
     public void AddProfessor(Professor professor){
         System.out.println("---------- Add professor ----------");
@@ -109,7 +112,7 @@ public class University {
     /**
      * Remove a professor from the university's professor list.
      * This action also remove the University of the professor.
-     * @param professor
+     * @param professor University's professor
      */
     public void RemoveProfessor(Professor professor){
         System.out.println("---------- Remove professor ----------");
@@ -125,7 +128,7 @@ public class University {
 
     /**
      * Add a room to the university's room list.
-     * @param room
+     * @param room University's room
      */
     public void AddRoom(Room room){
         System.out.println("---------- Add room ----------");
@@ -139,7 +142,7 @@ public class University {
 
     /**
      * Remove a room from the university's room list.
-     * @param room
+     * @param room University's room
      */
     public void RemoveRoom(Room room){
         System.out.println("---------- Remove room ----------");
@@ -155,7 +158,7 @@ public class University {
     /**
      * Add a student to the university's student list.
      * This action also add University of the Student.
-     * @param student
+     * @param student University's student
      */
     public void AddStudent(Student student){
         System.out.println("---------- Add student ----------");
@@ -171,7 +174,7 @@ public class University {
     /**
      * Remove a student from the university's student list.
      * This action also remove University of the Student.
-     * @param student
+     * @param student University's student
      */
     public void RemoveStudent(Student student){
         System.out.println("---------- Remove student ----------");
@@ -188,7 +191,7 @@ public class University {
     /**
      * Add course to the university's course list.
      * This action also add University of the course.
-     * @param course
+     * @param course University's course
      */
     public void AddCourse(Course course){
         System.out.println("---------- Add course ----------");
@@ -204,7 +207,7 @@ public class University {
     /**
      * Remove course from the university's course list.
      * This action also remove University of the course.
-     * @param course
+     * @param course University's course
      */
     public void RemoveCourse(Course course){
         System.out.println("---------- Remove course ----------");
@@ -221,7 +224,7 @@ public class University {
     /**
      * Add field to the university's field list.
      * This action also add University of the field.
-     * @param field
+     * @param field University's field
      */
     public void AddField(Field field){
         System.out.println("---------- Add field ----------");
@@ -237,7 +240,7 @@ public class University {
     /**
      * Remove field from the university's field list.
      * This action also remove University of the field.
-     * @param field
+     * @param field University's field
      */
     public void RemoveField(Field field){
         System.out.println("---------- Remove field ----------");
@@ -254,7 +257,7 @@ public class University {
     /**
      * Add sport to the university's sport list.
      * This action also add University of the sport
-     * @param sport
+     * @param sport University's sport
      */
     public void AddSport(Sport sport){
         System.out.println("---------- Add sport ----------");
@@ -269,7 +272,7 @@ public class University {
     /**
      * Remove sport from the university's sport list.
      * This action also remove university of the sport.
-     * @param sport
+     * @param sport University's sport
      */
     public void RemoveSport(Sport sport){
         System.out.println("---------- Remove sport ----------");
@@ -287,7 +290,7 @@ public class University {
 
     /**
      * Return name of University
-     * @return this.name
+     * @return University's name
      */
     public String toString(){
         return this.name;
@@ -296,7 +299,7 @@ public class University {
 
     /**
      * Convert University to JSON syntax
-     * @return strUniversity
+     * @return string for University's json syntax
      */
     public String toJSON(){
         /*

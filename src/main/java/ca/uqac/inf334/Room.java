@@ -1,5 +1,8 @@
 package ca.uqac.inf334;
 
+/**
+ * Room's class
+ */
 public class Room {
     String room;
     University university;
@@ -7,7 +10,7 @@ public class Room {
 
     /**
      * Room"s Constructor
-     * @param university
+     * @param university room's University
      */
     public Room (University university){
         this.room = GenerateRoom();
@@ -19,7 +22,7 @@ public class Room {
 
     /**
      * Generate number's room
-     * @return room
+     * @return Room's number
      */
     public String GenerateRoom(){
         System.out.println("---------- Generate room (room) ----------");
@@ -40,7 +43,7 @@ public class Room {
     /**
      * Set a course to the room.
      * This action also remove the room of the course.
-     * @param newCourse
+     * @param newCourse Room's course
      */
     public void SetCourse(Course newCourse){
         System.out.println("---------- Set course (room) ----------");
@@ -59,7 +62,7 @@ public class Room {
     /**
      * Remove the course from the room.
      * This action also remove the course from the room.
-     * @param course
+     * @param course Room's course
      */
     public void RemoveCourse(Course course){
         System.out.println("---------- Remove course (room) ----------");
@@ -75,7 +78,7 @@ public class Room {
 
     /**
      * Return room toString
-     * @return this.room
+     * @return Room
      */
     public String toString(){
         return this.room;
@@ -84,7 +87,7 @@ public class Room {
 
     /**
      * Convert Room to JSON syntax
-     * @return str
+     * @return string for room's json syntax
      */
     public String toJSON(){
         String str = "\n\t\t{" +

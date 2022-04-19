@@ -3,6 +3,10 @@ package ca.uqac.inf334;
 import java.lang.String;
 import java.util.HashSet;
 
+
+/**
+ * Field's class
+ */
 public class Field {
     String name;
     University university;
@@ -11,7 +15,7 @@ public class Field {
 
     /**
      * Field's constructor
-     * @param name
+     * @param name field's name
      */
     public Field(String name){
         this.name = name;
@@ -23,7 +27,7 @@ public class Field {
      * Set a university to the field.
      * The field can only have one university. If we set a university to a field which it already has one,
      * its attributes will be reset (course list and student list).
-     * @param newUniversity
+     * @param newUniversity field's new university
      */
     public void SetUniversity(University newUniversity){
         System.out.println("---------- Set university (field) ----------");
@@ -42,7 +46,7 @@ public class Field {
     /**
      * Remove the university of the field.
      * This action also remove the field from the university's field list and alla the courses and students of the field.
-     * @param university
+     * @param university field's university
      */
     public void RemoveUniversity(University university){
         System.out.println("---------- Remove university (field) ----------");
@@ -65,7 +69,7 @@ public class Field {
     /**
      * Add a course in the field.
      * This action also add the field to the course.
-     * @param course
+     * @param course field's course
      */
     public void AddCourse(Course course){
         System.out.println("---------- Add course (field) ----------");
@@ -85,7 +89,7 @@ public class Field {
     /**
      * Remove a course from the field.
      * This action also remove the field of the course.
-     * @param course
+     * @param course field's course
      */
     public void RemoveCourse(Course course){
         System.out.println("---------- Remove course (field) ----------");
@@ -103,7 +107,7 @@ public class Field {
      * Add a student to the field.
      * The field's university and the student's university must be the same.
      * This action also set the field of the student.
-     * @param student
+     * @param student field's student
      */
     public void AddStudent(Student student){
         System.out.println("---------- Add student (field) ----------");
@@ -121,7 +125,7 @@ public class Field {
     /**
      * Remove a student from the field.
      * This action also remove the field of the student.
-     * @param student
+     * @param student field's student
      */
     public void RemoveStudent(Student student){
         System.out.println("---------- Remove student (field) ----------");
@@ -145,7 +149,7 @@ public class Field {
 
     /**
      * Convert field to JSON syntax
-     * @return str
+     * @return str field's json syntax
      */
     public String toJSON(){
         String str = "\n\t\t{" +

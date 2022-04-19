@@ -1,11 +1,15 @@
 package ca.uqac.inf334;
 
+
+/**
+ * Admin's class
+ */
 public class Admin extends Staff{
 
     /**
      * Admin's constructor
-     * @param firstName
-     * @param lastName
+     * @param firstName admin's first name
+     * @param lastName admin's last name
      */
     public Admin(String lastName, String firstName) {
         super(lastName, firstName, "Admin");
@@ -15,7 +19,7 @@ public class Admin extends Staff{
      * Set a new university to the admin.
      * This action also add the admin to the university's admin list. If we set a university to an admin which it already has one,
      * its attributes will be reset.
-     * @param newUniversity
+     * @param newUniversity admin's new university
      */
     @Override
     public void SetUniversity(University newUniversity) {
@@ -36,7 +40,7 @@ public class Admin extends Staff{
     /**
      * Remove the university of the admin.
      * This action also remove the admin from the university's admin list.
-     * @param university
+     * @param university admin's university
      */
     @Override
     public void RemoveUniversity(University university) {
@@ -53,7 +57,7 @@ public class Admin extends Staff{
 
     /**
      * Convert Admin to JSON syntax
-     * @return str
+     * @return str string for admin's json syntax
      */
     public String toJSON(){
         String str = "\n\t\t{\n" +

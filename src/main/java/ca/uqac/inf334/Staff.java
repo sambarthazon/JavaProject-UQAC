@@ -1,5 +1,8 @@
 package ca.uqac.inf334;
 
+/**
+ * Abstract class for university's staff
+ */
 public abstract class Staff{
     String firstName;
     String lastName;
@@ -8,9 +11,9 @@ public abstract class Staff{
 
     /**
      * Staff's constructor
-     * @param lastName
-     * @param firstName
-     * @param function
+     * @param lastName staff's last name
+     * @param firstName staff's first name
+     * @param function staff's function
      */
     public Staff(String lastName, String firstName, String function) {
         this.lastName = lastName;
@@ -21,17 +24,20 @@ public abstract class Staff{
 
     /**
      * Set university
+     * @param newUniversity staff's new university
      */
     public abstract void SetUniversity(University newUniversity);
 
     /**
      * Remove university
+     * @param university staff's university
      */
     public abstract void RemoveUniversity(University university);
 
 
     /**
      * Override toString method
+     * @return last name and first name
      */
     public String toString() {
         return "\"" + this.lastName + " " + this.firstName + "\"";
@@ -40,6 +46,7 @@ public abstract class Staff{
 
     /**
      * Convert staff to JSON syntax
+     * @return staff's json syntax
      */
     public abstract String toJSON();
 }
